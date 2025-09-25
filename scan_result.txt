@@ -1,0 +1,342 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-09-25 07:18 +0200
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 07:18
+Completed NSE at 07:18, 0.00s elapsed
+Initiating NSE at 07:18
+Completed NSE at 07:18, 0.00s elapsed
+Initiating NSE at 07:18
+Completed NSE at 07:18, 0.00s elapsed
+Initiating ARP Ping Scan at 07:18
+Scanning 255 hosts [1 port/host]
+Completed ARP Ping Scan at 07:18, 11.08s elapsed (255 total hosts)
+Nmap scan report for 169.254.182.0 [host down]
+Nmap scan report for 169.254.182.1 [host down]
+Nmap scan report for 169.254.182.2 [host down]
+Nmap scan report for 169.254.182.3 [host down]
+Nmap scan report for 169.254.182.4 [host down]
+Nmap scan report for 169.254.182.5 [host down]
+Nmap scan report for 169.254.182.6 [host down]
+Nmap scan report for 169.254.182.7 [host down]
+Nmap scan report for 169.254.182.8 [host down]
+Nmap scan report for 169.254.182.9 [host down]
+Nmap scan report for 169.254.182.10 [host down]
+Nmap scan report for 169.254.182.11 [host down]
+Nmap scan report for 169.254.182.12 [host down]
+Nmap scan report for 169.254.182.13 [host down]
+Nmap scan report for 169.254.182.15 [host down]
+Nmap scan report for 169.254.182.16 [host down]
+Nmap scan report for 169.254.182.17 [host down]
+Nmap scan report for 169.254.182.18 [host down]
+Nmap scan report for 169.254.182.19 [host down]
+Nmap scan report for 169.254.182.20 [host down]
+Nmap scan report for 169.254.182.21 [host down]
+Nmap scan report for 169.254.182.22 [host down]
+Nmap scan report for 169.254.182.23 [host down]
+Nmap scan report for 169.254.182.24 [host down]
+Nmap scan report for 169.254.182.25 [host down]
+Nmap scan report for 169.254.182.26 [host down]
+Nmap scan report for 169.254.182.27 [host down]
+Nmap scan report for 169.254.182.28 [host down]
+Nmap scan report for 169.254.182.29 [host down]
+Nmap scan report for 169.254.182.30 [host down]
+Nmap scan report for 169.254.182.31 [host down]
+Nmap scan report for 169.254.182.32 [host down]
+Nmap scan report for 169.254.182.33 [host down]
+Nmap scan report for 169.254.182.34 [host down]
+Nmap scan report for 169.254.182.35 [host down]
+Nmap scan report for 169.254.182.36 [host down]
+Nmap scan report for 169.254.182.37 [host down]
+Nmap scan report for 169.254.182.38 [host down]
+Nmap scan report for 169.254.182.39 [host down]
+Nmap scan report for 169.254.182.40 [host down]
+Nmap scan report for 169.254.182.41 [host down]
+Nmap scan report for 169.254.182.42 [host down]
+Nmap scan report for 169.254.182.43 [host down]
+Nmap scan report for 169.254.182.44 [host down]
+Nmap scan report for 169.254.182.45 [host down]
+Nmap scan report for 169.254.182.46 [host down]
+Nmap scan report for 169.254.182.47 [host down]
+Nmap scan report for 169.254.182.48 [host down]
+Nmap scan report for 169.254.182.49 [host down]
+Nmap scan report for 169.254.182.50 [host down]
+Nmap scan report for 169.254.182.51 [host down]
+Nmap scan report for 169.254.182.52 [host down]
+Nmap scan report for 169.254.182.53 [host down]
+Nmap scan report for 169.254.182.54 [host down]
+Nmap scan report for 169.254.182.55 [host down]
+Nmap scan report for 169.254.182.56 [host down]
+Nmap scan report for 169.254.182.57 [host down]
+Nmap scan report for 169.254.182.58 [host down]
+Nmap scan report for 169.254.182.59 [host down]
+Nmap scan report for 169.254.182.60 [host down]
+Nmap scan report for 169.254.182.61 [host down]
+Nmap scan report for 169.254.182.62 [host down]
+Nmap scan report for 169.254.182.63 [host down]
+Nmap scan report for 169.254.182.64 [host down]
+Nmap scan report for 169.254.182.65 [host down]
+Nmap scan report for 169.254.182.66 [host down]
+Nmap scan report for 169.254.182.67 [host down]
+Nmap scan report for 169.254.182.68 [host down]
+Nmap scan report for 169.254.182.69 [host down]
+Nmap scan report for 169.254.182.70 [host down]
+Nmap scan report for 169.254.182.71 [host down]
+Nmap scan report for 169.254.182.72 [host down]
+Nmap scan report for 169.254.182.73 [host down]
+Nmap scan report for 169.254.182.74 [host down]
+Nmap scan report for 169.254.182.75 [host down]
+Nmap scan report for 169.254.182.76 [host down]
+Nmap scan report for 169.254.182.77 [host down]
+Nmap scan report for 169.254.182.78 [host down]
+Nmap scan report for 169.254.182.79 [host down]
+Nmap scan report for 169.254.182.80 [host down]
+Nmap scan report for 169.254.182.81 [host down]
+Nmap scan report for 169.254.182.82 [host down]
+Nmap scan report for 169.254.182.83 [host down]
+Nmap scan report for 169.254.182.84 [host down]
+Nmap scan report for 169.254.182.85 [host down]
+Nmap scan report for 169.254.182.86 [host down]
+Nmap scan report for 169.254.182.87 [host down]
+Nmap scan report for 169.254.182.88 [host down]
+Nmap scan report for 169.254.182.89 [host down]
+Nmap scan report for 169.254.182.90 [host down]
+Nmap scan report for 169.254.182.91 [host down]
+Nmap scan report for 169.254.182.92 [host down]
+Nmap scan report for 169.254.182.93 [host down]
+Nmap scan report for 169.254.182.94 [host down]
+Nmap scan report for 169.254.182.95 [host down]
+Nmap scan report for 169.254.182.96 [host down]
+Nmap scan report for 169.254.182.97 [host down]
+Nmap scan report for 169.254.182.98 [host down]
+Nmap scan report for 169.254.182.99 [host down]
+Nmap scan report for 169.254.182.100 [host down]
+Nmap scan report for 169.254.182.101 [host down]
+Nmap scan report for 169.254.182.102 [host down]
+Nmap scan report for 169.254.182.103 [host down]
+Nmap scan report for 169.254.182.104 [host down]
+Nmap scan report for 169.254.182.105 [host down]
+Nmap scan report for 169.254.182.106 [host down]
+Nmap scan report for 169.254.182.107 [host down]
+Nmap scan report for 169.254.182.108 [host down]
+Nmap scan report for 169.254.182.109 [host down]
+Nmap scan report for 169.254.182.110 [host down]
+Nmap scan report for 169.254.182.111 [host down]
+Nmap scan report for 169.254.182.112 [host down]
+Nmap scan report for 169.254.182.113 [host down]
+Nmap scan report for 169.254.182.114 [host down]
+Nmap scan report for 169.254.182.115 [host down]
+Nmap scan report for 169.254.182.116 [host down]
+Nmap scan report for 169.254.182.117 [host down]
+Nmap scan report for 169.254.182.118 [host down]
+Nmap scan report for 169.254.182.119 [host down]
+Nmap scan report for 169.254.182.120 [host down]
+Nmap scan report for 169.254.182.121 [host down]
+Nmap scan report for 169.254.182.122 [host down]
+Nmap scan report for 169.254.182.123 [host down]
+Nmap scan report for 169.254.182.124 [host down]
+Nmap scan report for 169.254.182.125 [host down]
+Nmap scan report for 169.254.182.126 [host down]
+Nmap scan report for 169.254.182.127 [host down]
+Nmap scan report for 169.254.182.128 [host down]
+Nmap scan report for 169.254.182.129 [host down]
+Nmap scan report for 169.254.182.130 [host down]
+Nmap scan report for 169.254.182.131 [host down]
+Nmap scan report for 169.254.182.132 [host down]
+Nmap scan report for 169.254.182.133 [host down]
+Nmap scan report for 169.254.182.134 [host down]
+Nmap scan report for 169.254.182.135 [host down]
+Nmap scan report for 169.254.182.136 [host down]
+Nmap scan report for 169.254.182.137 [host down]
+Nmap scan report for 169.254.182.138 [host down]
+Nmap scan report for 169.254.182.139 [host down]
+Nmap scan report for 169.254.182.140 [host down]
+Nmap scan report for 169.254.182.141 [host down]
+Nmap scan report for 169.254.182.142 [host down]
+Nmap scan report for 169.254.182.143 [host down]
+Nmap scan report for 169.254.182.144 [host down]
+Nmap scan report for 169.254.182.145 [host down]
+Nmap scan report for 169.254.182.146 [host down]
+Nmap scan report for 169.254.182.147 [host down]
+Nmap scan report for 169.254.182.148 [host down]
+Nmap scan report for 169.254.182.149 [host down]
+Nmap scan report for 169.254.182.150 [host down]
+Nmap scan report for 169.254.182.151 [host down]
+Nmap scan report for 169.254.182.152 [host down]
+Nmap scan report for 169.254.182.153 [host down]
+Nmap scan report for 169.254.182.154 [host down]
+Nmap scan report for 169.254.182.155 [host down]
+Nmap scan report for 169.254.182.156 [host down]
+Nmap scan report for 169.254.182.157 [host down]
+Nmap scan report for 169.254.182.158 [host down]
+Nmap scan report for 169.254.182.159 [host down]
+Nmap scan report for 169.254.182.160 [host down]
+Nmap scan report for 169.254.182.161 [host down]
+Nmap scan report for 169.254.182.162 [host down]
+Nmap scan report for 169.254.182.163 [host down]
+Nmap scan report for 169.254.182.164 [host down]
+Nmap scan report for 169.254.182.165 [host down]
+Nmap scan report for 169.254.182.166 [host down]
+Nmap scan report for 169.254.182.167 [host down]
+Nmap scan report for 169.254.182.168 [host down]
+Nmap scan report for 169.254.182.169 [host down]
+Nmap scan report for 169.254.182.170 [host down]
+Nmap scan report for 169.254.182.171 [host down]
+Nmap scan report for 169.254.182.172 [host down]
+Nmap scan report for 169.254.182.173 [host down]
+Nmap scan report for 169.254.182.174 [host down]
+Nmap scan report for 169.254.182.175 [host down]
+Nmap scan report for 169.254.182.176 [host down]
+Nmap scan report for 169.254.182.177 [host down]
+Nmap scan report for 169.254.182.178 [host down]
+Nmap scan report for 169.254.182.179 [host down]
+Nmap scan report for 169.254.182.180 [host down]
+Nmap scan report for 169.254.182.181 [host down]
+Nmap scan report for 169.254.182.182 [host down]
+Nmap scan report for 169.254.182.183 [host down]
+Nmap scan report for 169.254.182.184 [host down]
+Nmap scan report for 169.254.182.185 [host down]
+Nmap scan report for 169.254.182.186 [host down]
+Nmap scan report for 169.254.182.187 [host down]
+Nmap scan report for 169.254.182.188 [host down]
+Nmap scan report for 169.254.182.189 [host down]
+Nmap scan report for 169.254.182.190 [host down]
+Nmap scan report for 169.254.182.191 [host down]
+Nmap scan report for 169.254.182.192 [host down]
+Nmap scan report for 169.254.182.193 [host down]
+Nmap scan report for 169.254.182.194 [host down]
+Nmap scan report for 169.254.182.195 [host down]
+Nmap scan report for 169.254.182.196 [host down]
+Nmap scan report for 169.254.182.197 [host down]
+Nmap scan report for 169.254.182.198 [host down]
+Nmap scan report for 169.254.182.199 [host down]
+Nmap scan report for 169.254.182.200 [host down]
+Nmap scan report for 169.254.182.201 [host down]
+Nmap scan report for 169.254.182.202 [host down]
+Nmap scan report for 169.254.182.203 [host down]
+Nmap scan report for 169.254.182.204 [host down]
+Nmap scan report for 169.254.182.205 [host down]
+Nmap scan report for 169.254.182.206 [host down]
+Nmap scan report for 169.254.182.207 [host down]
+Nmap scan report for 169.254.182.208 [host down]
+Nmap scan report for 169.254.182.209 [host down]
+Nmap scan report for 169.254.182.210 [host down]
+Nmap scan report for 169.254.182.211 [host down]
+Nmap scan report for 169.254.182.212 [host down]
+Nmap scan report for 169.254.182.213 [host down]
+Nmap scan report for 169.254.182.214 [host down]
+Nmap scan report for 169.254.182.215 [host down]
+Nmap scan report for 169.254.182.216 [host down]
+Nmap scan report for 169.254.182.217 [host down]
+Nmap scan report for 169.254.182.218 [host down]
+Nmap scan report for 169.254.182.219 [host down]
+Nmap scan report for 169.254.182.220 [host down]
+Nmap scan report for 169.254.182.221 [host down]
+Nmap scan report for 169.254.182.222 [host down]
+Nmap scan report for 169.254.182.223 [host down]
+Nmap scan report for 169.254.182.224 [host down]
+Nmap scan report for 169.254.182.225 [host down]
+Nmap scan report for 169.254.182.226 [host down]
+Nmap scan report for 169.254.182.227 [host down]
+Nmap scan report for 169.254.182.228 [host down]
+Nmap scan report for 169.254.182.229 [host down]
+Nmap scan report for 169.254.182.230 [host down]
+Nmap scan report for 169.254.182.231 [host down]
+Nmap scan report for 169.254.182.232 [host down]
+Nmap scan report for 169.254.182.233 [host down]
+Nmap scan report for 169.254.182.234 [host down]
+Nmap scan report for 169.254.182.235 [host down]
+Nmap scan report for 169.254.182.236 [host down]
+Nmap scan report for 169.254.182.237 [host down]
+Nmap scan report for 169.254.182.238 [host down]
+Nmap scan report for 169.254.182.239 [host down]
+Nmap scan report for 169.254.182.240 [host down]
+Nmap scan report for 169.254.182.241 [host down]
+Nmap scan report for 169.254.182.242 [host down]
+Nmap scan report for 169.254.182.243 [host down]
+Nmap scan report for 169.254.182.244 [host down]
+Nmap scan report for 169.254.182.245 [host down]
+Nmap scan report for 169.254.182.246 [host down]
+Nmap scan report for 169.254.182.247 [host down]
+Nmap scan report for 169.254.182.248 [host down]
+Nmap scan report for 169.254.182.249 [host down]
+Nmap scan report for 169.254.182.250 [host down]
+Nmap scan report for 169.254.182.251 [host down]
+Nmap scan report for 169.254.182.252 [host down]
+Nmap scan report for 169.254.182.253 [host down]
+Nmap scan report for 169.254.182.254 [host down]
+Nmap scan report for 169.254.182.255 [host down]
+Initiating Parallel DNS resolution of 1 host. at 07:18
+Completed Parallel DNS resolution of 1 host. at 07:18, 0.51s elapsed
+Initiating SYN Stealth Scan at 07:18
+Scanning 169.254.182.14 [1000 ports]
+Discovered open port 445/tcp on 169.254.182.14
+Discovered open port 3306/tcp on 169.254.182.14
+Discovered open port 135/tcp on 169.254.182.14
+Discovered open port 139/tcp on 169.254.182.14
+Discovered open port 5357/tcp on 169.254.182.14
+Discovered open port 25734/tcp on 169.254.182.14
+Discovered open port 7070/tcp on 169.254.182.14
+Completed SYN Stealth Scan at 07:18, 0.13s elapsed (1000 total ports)
+Initiating Service scan at 07:18
+Scanning 7 services on 169.254.182.14
+Completed Service scan at 07:18, 11.33s elapsed (7 services on 1 host)
+Initiating OS detection (try #1) against 169.254.182.14
+NSE: Script scanning 169.254.182.14.
+Initiating NSE at 07:18
+Completed NSE at 07:18, 14.40s elapsed
+Initiating NSE at 07:18
+Completed NSE at 07:18, 0.21s elapsed
+Initiating NSE at 07:18
+Completed NSE at 07:18, 0.00s elapsed
+Nmap scan report for 169.254.182.14
+Host is up (0.013s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT      STATE SERVICE         VERSION
+135/tcp   open  msrpc           Microsoft Windows RPC
+139/tcp   open  netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+3306/tcp  open  mysql           MySQL (unauthorized)
+5357/tcp  open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Service Unavailable
+|_http-server-header: Microsoft-HTTPAPI/2.0
+7070/tcp  open  ssl/realserver?
+| ssl-cert: Subject: commonName=AnyDesk Client
+| Issuer: commonName=AnyDesk Client
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-10-08T14:05:58
+| Not valid after:  2073-09-25T14:05:58
+| MD5:     3201 c441 6638 1aa9 8016 855e 58d1 c97a
+| SHA-1:   cc7b 7793 0078 90e3 7f85 4082 88c7 1085 cf4b 3984
+|_SHA-256: a866 01b6 fee1 5e57 3449 0649 4213 f933 e086 fc1b 0bf8 6d8a 609b 9a51 e674 244e
+|_ssl-date: TLS randomness does not represent time
+25734/tcp open  flexlm          FlexLM license manager
+Device type: general purpose
+Running: Microsoft Windows 10
+OS CPE: cpe:/o:microsoft:windows_10
+OS details: Microsoft Windows 10 1809 - 21H2
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2025-09-25T05:18:46
+|_  start_date: N/A
+
+NSE: Script Post-scanning.
+Initiating NSE at 07:18
+Completed NSE at 07:18, 0.00s elapsed
+Initiating NSE at 07:18
+Completed NSE at 07:18, 0.00s elapsed
+Initiating NSE at 07:18
+Completed NSE at 07:18, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (1 host up) scanned in 40.97 seconds
+           Raw packets sent: 1560 (61.706KB) | Rcvd: 2428 (121.631KB)
