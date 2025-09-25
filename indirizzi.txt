@@ -1,0 +1,20 @@
+# Indirizzo	Nome
+ff:ff:ff:ff:ff:ff	Broadcast
+01:00:5e	ICANN, IANA Department
+01:00:5e:00:00:00	IPv4mcast
+01:00:5e:00:00:16	IPv4mcast_16
+01:00:5e:7f:ff:fa	IPv4mcast_7f:ff:fa
+01:00:5e:00:00:fb	IPv4mcast_fb
+01:00:5e:00:00:fc	IPv4mcast_fc
+33:33:00:00:00:00	IPv6mcast
+33:33:00:01:00:02	IPv6mcast_01:00:02
+33:33:00:01:00:03	IPv6mcast_01:00:03
+33:33:00:00:00:02	IPv6mcast_02
+33:33:00:00:00:0c	IPv6mcast_0c
+33:33:00:00:00:16	IPv6mcast_16
+33:33:00:00:00:fb	IPv6mcast_fb
+33:33:ff:fe:44:3f	IPv6mcast_ff:fe:44:3f
+50:7b:9d	LCFC(Hefei) Electronics Technology co., ltd
+50:7b:9d:e4:88:2b	LCFCElectron_e4:88:2b
+00:14:2d	Toradex AG
+00:14:2d:e5:66:24	Toradex_e5:66:24
