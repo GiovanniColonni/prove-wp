@@ -1,0 +1,9 @@
+> ping verdin-imx8mp-15033892.local
+
+Esecuzione di Ping verdin-imx8mp-15033892 [fe80::64d:84ab:e0fe:443f%4] con 32 byte di dati:
+Risposta da fe80::64d:84ab:e0fe:443f%4: durata<1ms
+Risposta da fe80::64d:84ab:e0fe:443f%4: durata<1ms
+Risposta da fe80::64d:84ab:e0fe:443f%4: durata<1ms
+Risposta da fe80::64d:84ab:e0fe:443f%4: durata<1ms
+
+00:14:2d:e5:66:24	Toradex_e5:66:24
