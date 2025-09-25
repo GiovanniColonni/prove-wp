@@ -1,0 +1,218 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-09-25 07:29 +0200
+NSE: Loaded 303 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 07:29
+NSE: [mtrace] A source IP must be provided through fromip argument.
+NSE: [shodan-api] Error: Please specify your ShodanAPI key with the shodan-api.apikey argument
+No profinet devices in the subnet
+Completed NSE at 07:29, 10.73s elapsed
+Initiating NSE at 07:29
+Completed NSE at 07:29, 0.00s elapsed
+Initiating NSE at 07:29
+Completed NSE at 07:29, 0.00s elapsed
+Pre-scan script results:
+| targets-ipv6-multicast-mld: 
+|   IP: fe80::64d:84ab:e0fe:443f  MAC: 00:14:2d:e5:66:24  IFACE: eth0
+| 
+|_  Use --script-args=newtargets to add the results as targets
+| targets-ipv6-multicast-invalid-dst: 
+|   IP: fe80::64d:84ab:e0fe:443f   MAC: 00:14:2d:e5:66:24  IFACE: eth0
+|   IP: fe80::4aa9:8aff:fea2:162c  MAC: 48:a9:8a:a2:16:2c  IFACE: eth3
+|_  Use --script-args=newtargets to add the results as targets
+| targets-ipv6-multicast-echo: 
+|   IP: fe80::4aa9:8aff:fea2:162c  MAC: 48:a9:8a:a2:16:2c  IFACE: eth3
+|   IP: fe80::64d:84ab:e0fe:443f   MAC: 00:14:2d:e5:66:24  IFACE: eth0
+|_  Use --script-args=newtargets to add the results as targets
+| broadcast-ping: 
+|   IP: 192.168.205.227  MAC: 84:94:37:e8:4b:18
+|_  Use --script-args=newtargets to add the results as targets
+| targets-sniffer: Sniffed 6 address(es). 
+| 169.254.182.14
+| a9fe:b60e::
+| fe80::64d:84ab:e0fe:443f
+| 224.0.0.13
+| 224.0.23.12
+|_0.0.0.0
+|_hostmap-robtex: *TEMPORARILY DISABLED* due to changes in Robtex's API. See https://www.robtex.com/api/
+|_http-robtex-shared-ns: *TEMPORARILY DISABLED* due to changes in Robtex's API. See https://www.robtex.com/api/
+| targets-asn: 
+|_  targets-asn.asn is a mandatory parameter
+Bug in lltd-discovery: no string output.
+Initiating Parallel DNS resolution of 1 host. at 07:29
+Completed Parallel DNS resolution of 1 host. at 07:29, 0.51s elapsed
+Initiating SYN Stealth Scan at 07:29
+Scanning 169.254.182.14 [1000 ports]
+Discovered open port 135/tcp on 169.254.182.14
+Discovered open port 3306/tcp on 169.254.182.14
+Discovered open port 139/tcp on 169.254.182.14
+Discovered open port 445/tcp on 169.254.182.14
+Discovered open port 7070/tcp on 169.254.182.14
+Discovered open port 25734/tcp on 169.254.182.14
+Discovered open port 5357/tcp on 169.254.182.14
+Completed SYN Stealth Scan at 07:29, 0.22s elapsed (1000 total ports)
+Initiating UDP Scan at 07:29
+Scanning 169.254.182.14 [1000 ports]
+Discovered open port 53/udp on 169.254.182.14
+Completed UDP Scan at 07:29, 4.92s elapsed (1000 total ports)
+Initiating Service scan at 07:29
+Scanning 1007 services on 169.254.182.14
+Service scan Timing: About 5.96% done; ETC: 07:38 (0:08:25 remaining)
+Service scan Timing: About 21.65% done; ETC: 07:34 (0:03:44 remaining)
+Service scan Timing: About 33.47% done; ETC: 07:34 (0:03:03 remaining)
+Service scan Timing: About 49.45% done; ETC: 07:33 (0:02:05 remaining)
+Service scan Timing: About 63.95% done; ETC: 07:33 (0:01:26 remaining)
+Completed Service scan at 07:33, 202.72s elapsed (1007 services on 1 host)
+Initiating OS detection (try #1) against 169.254.182.14
+NSE: Script scanning 169.254.182.14.
+Initiating NSE at 07:33
+Windows does not have adequate raw socket support.
+Windows does not have adequate raw socket support.
+Windows does not have adequate raw socket support.
+Discovered open port 47808/udp on 169.254.182.14
+Discovered open port 500/udp on 169.254.182.14
+Completed NSE at 07:38, 346.11s elapsed
+Initiating NSE at 07:38
+Discovered open port 764/udp on 169.254.182.14
+Completed NSE at 07:39, 10.35s elapsed
+Initiating NSE at 07:39
+Completed NSE at 07:39, 1.58s elapsed
+Nmap scan report for 169.254.182.14
+Host is up (0.0022s latency).
+Not shown: 996 open|filtered udp ports (no-response), 993 closed tcp ports (reset)
+Bug in http-security-headers: no string output.
+PORT      STATE SERVICE         VERSION
+135/tcp   open  msrpc           Microsoft Windows RPC
+139/tcp   open  netbios-ssn     Microsoft Windows netbios-ssn
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+445/tcp   open  microsoft-ds?
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+3306/tcp  open  mysql           MySQL (unauthorized)
+| banner: H\x00\x00\x00\xFFj\x04Host 'DESKTOP-SOLTRMP' is not allowed to 
+|_connect to this MySQL server
+5357/tcp  open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-xssed: No previously reported XSS vuln.
+|_http-date: Thu, 25 Sep 2025 05:38:29 GMT; -1s from local time.
+|_http-comments-displayer: Couldn't find any comments.
+|_http-title: Service Unavailable
+| http-headers: 
+|   Content-Type: text/html; charset=us-ascii
+|   Server: Microsoft-HTTPAPI/2.0
+|   Date: Thu, 25 Sep 2025 05:38:32 GMT
+|   Connection: close
+|   Content-Length: 326
+|   
+|_  (Request type: GET)
+| http-traceroute: 
+|_  Possible reverse proxy detected.
+|_http-referer-checker: Couldn't find any cross-domain scripts.
+|_http-mobileversion-checker: No mobile version detected.
+| http-useragent-tester: 
+|   Status for browser useragent: 503
+|   Allowed User Agents: 
+|     Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+|     libwww
+|     lwp-trivial
+|     libcurl-agent/1.0
+|     PHP/
+|     Python-urllib/2.5
+|     GT::WWW
+|     Snoopy
+|     MFC_Tear_Sample
+|     HTTP::Lite
+|     PHPCrawl
+|     URI::Fetch
+|     Zend_Http_Client
+|     http client
+|     PECL::HTTP
+|     Wget/1.13.4 (linux-gnu)
+|_    WWW-Mechanize/1.34
+|_http-server-header: Microsoft-HTTPAPI/2.0
+7070/tcp  open  ssl/realserver?
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=AnyDesk Client
+| Issuer: commonName=AnyDesk Client
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-10-08T14:05:58
+| Not valid after:  2073-09-25T14:05:58
+| MD5:     3201 c441 6638 1aa9 8016 855e 58d1 c97a
+| SHA-1:   cc7b 7793 0078 90e3 7f85 4082 88c7 1085 cf4b 3984
+|_SHA-256: a866 01b6 fee1 5e57 3449 0649 4213 f933 e086 fc1b 0bf8 6d8a 609b 9a51 e674 244e
+25734/tcp open  flexlm          FlexLM license manager
+53/udp    open  domain?
+500/udp   open  isakmp?
+|_ike-version: ERROR: Script execution failed (use -d to debug)
+764/udp   open  omserv?
+47808/udp open  bacnet
+|_bacnet-info: ERROR: Script execution failed (use -d to debug)
+Device type: general purpose
+Running: Microsoft Windows 10
+OS CPE: cpe:/o:microsoft:windows_10
+OS details: Microsoft Windows 10 1809 - 21H2
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb-protocols: 
+|   dialects: 
+|     2.0.2
+|     2.1
+|     3.0
+|     3.0.2
+|_    3.1.1
+|_fcrdns: FAIL (No PTR record)
+|_ipidseq: Incremental!
+| smb2-time: 
+|   date: 2025-09-25T05:33:11
+|_  start_date: N/A
+|_msrpc-enum: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+| smb-mbenum: 
+|_  ERROR: Failed to connect to browser service: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| qscan: 
+| PORT   FAMILY  MEAN (us)  STDDEV     LOSS (%)
+| 1      0       148500.00  174539.55  0.0%
+| 53     1       371500.00  275290.25  0.0%
+| 135    0       203300.00  220313.94  0.0%
+| 139    0       398300.00  425613.82  0.0%
+| 445    0       473700.00  874776.55  0.0%
+| 3306   0       355500.00  519025.21  0.0%
+| 5357   0       318800.00  280946.34  0.0%
+| 7070   1       379200.00  284086.37  0.0%
+|_25734  0       310400.00  277808.57  0.0%
+| smb2-capabilities: 
+|   2.0.2: 
+|     Distributed File System
+|   2.1: 
+|     Distributed File System
+|     Leasing
+|     Multi-credit operations
+|   3.0: 
+|     Distributed File System
+|     Leasing
+|     Multi-credit operations
+|   3.0.2: 
+|     Distributed File System
+|     Leasing
+|     Multi-credit operations
+|   3.1.1: 
+|     Distributed File System
+|     Leasing
+|_    Multi-credit operations
+
+NSE: Script Post-scanning.
+Initiating NSE at 07:39
+Completed NSE at 07:39, 0.00s elapsed
+Initiating NSE at 07:39
+Completed NSE at 07:39, 0.00s elapsed
+Initiating NSE at 07:39
+Completed NSE at 07:39, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 579.38 seconds
+           Raw packets sent: 3199 (148.006KB) | Rcvd: 4145 (186.336KB)
