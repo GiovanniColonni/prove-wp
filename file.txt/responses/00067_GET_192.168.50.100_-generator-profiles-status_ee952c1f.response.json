@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "deviceId": "0d028705-c3cc-4dd6-8cfb-f0f648cb610f",
+      "enabled": false,
+      "profileStatus": [
+        {
+          "id": "49998e6a-0626-4ba7-a86d-f9eef8660f2e",
+          "triggersActive": [
+            "No Triggers Active"
+          ]
+        }
+      ]
+    }
+  ],
+  "whisperSchema": "v1/apis/edge"
+}

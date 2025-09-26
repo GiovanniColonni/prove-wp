@@ -1,0 +1,138 @@
+{
+  "data": {
+    "WhisperSchema": "v1/definitions/system",
+    "devices": [
+      {
+        "acOutput": "7d5a2072-1348-4659-967e-d5c042f1cbce",
+        "class": "generator",
+        "communicationProtocol": "DDC-GV",
+        "deviceId": "0d028705-c3cc-4dd6-8cfb-f0f648cb610f",
+        "modelCode": "DDC-GV",
+        "name": "Elite 8",
+        "peripheral": "rs485 1",
+        "serialNumber": "Unknown",
+        "type": "manual"
+      },
+      {
+        "acOutput": "ac-consumer-1",
+        "class": "inverter",
+        "communicationProtocol": "WhisperConnect",
+        "dcInput": "dc-distribution-1",
+        "deviceId": "cc016505-c8a1-4fdc-8ed1-ecefb9cfb324",
+        "modelCode": "AC07",
+        "name": "AC PowerCube 1",
+        "nodeId": "64",
+        "peripheral": "can 1",
+        "protocolVersion": "Unknown",
+        "serialNumber": "Unknown",
+        "type": "manual"
+      },
+      {
+        "acInput": "ac-grid-1",
+        "class": "battery-charger",
+        "communicationProtocol": "WhisperConnect",
+        "dcOutput": "dc-distribution-1",
+        "deviceId": "4571b9c4-c586-4e75-9a3c-4d28682ac485",
+        "generatorInput": "ac-distribution-1",
+        "modelCode": "WPBC24V100A",
+        "name": "WP-BC Supreme 1",
+        "nodeId": "48",
+        "peripheral": "can 1",
+        "protocolVersion": "Unknown",
+        "serialNumber": "Unknown",
+        "type": "manual"
+      },
+      {
+        "acInput": "ac-grid-1",
+        "class": "battery-charger",
+        "communicationProtocol": "WhisperConnect",
+        "dcOutput": "dc-distribution-1",
+        "deviceId": "40cb5f6d-929e-41db-a0ec-43dbf3458312",
+        "generatorInput": "ac-distribution-1",
+        "modelCode": "WPBC24V100A",
+        "name": "WP-BC Supreme 2",
+        "nodeId": "49",
+        "peripheral": "can 1",
+        "protocolVersion": "Unknown",
+        "serialNumber": "Unknown",
+        "type": "manual"
+      },
+      {
+        "acInput": "0d028705-c3cc-4dd6-8cfb-f0f648cb610f",
+        "acOutput": "ac-distribution-1",
+        "class": "power-converter",
+        "communicationProtocol": "PMG",
+        "deviceId": "7d5a2072-1348-4659-967e-d5c042f1cbce",
+        "generatorInput": "0d028705-c3cc-4dd6-8cfb-f0f648cb610f",
+        "modelCode": "PMG-FRAME-I",
+        "name": "PMG Frame I",
+        "nodeId": "49",
+        "peripheral": "can 1",
+        "protocolVersion": "Unknown",
+        "serialNumber": "Unknown",
+        "type": "manual"
+      },
+      {
+        "class": "battery-monitor",
+        "communicationProtocol": "CanOpen",
+        "dcInput": "dc-distribution-1",
+        "dcOutput": "dc-distribution-1",
+        "deviceId": "6b7cddcc-ea39-4eb7-a65f-3e6930f581dd",
+        "modelCode": "WIB",
+        "name": "Battery Monitor 1",
+        "nodeId": "1",
+        "peripheral": "can 1",
+        "protocolVersion": "Unknown",
+        "serialNumber": "Unknown",
+        "type": "manual"
+      },
+      {
+        "addressId": "1",
+        "class": "solar-charger",
+        "communicationProtocol": "WPCBus",
+        "dcOutput": "dc-distribution-1",
+        "deviceId": "2b980e8f-647e-4acb-86e0-df4251d4ee95",
+        "modelCode": "WP-Suntrack65",
+        "name": "Solar Charger 1",
+        "nodeId": "1",
+        "peripheral": "can 1",
+        "protocolVersion": "Unknown",
+        "serialNumber": "Unknown",
+        "type": "manual"
+      }
+    ],
+    "distributions": [
+      {
+        "class": "dc-distribution",
+        "id": "dc-distribution-1",
+        "name": "DC Distribution 1",
+        "voltage": "24"
+      },
+      {
+        "class": "ac-distribution",
+        "id": "ac-distribution-1",
+        "name": "AC Distribution 1",
+        "voltage": 230
+      }
+    ],
+    "inputs": [
+      {
+        "class": "ac-grid-1-phase",
+        "id": "ac-grid-1",
+        "maxCurrent": 16,
+        "name": "AC Grid 1",
+        "voltage": 230
+      }
+    ],
+    "outputs": [
+      {
+        "class": "ac-consumer-1-phase",
+        "id": "ac-consumer-1",
+        "name": "AC Consumer 1",
+        "voltage": 220
+      }
+    ],
+    "serialNumber": "eee361d623bf4bfeb5deaabea7a09e16"
+  },
+  "whisperSchema": "v1/apis/edge"
+}

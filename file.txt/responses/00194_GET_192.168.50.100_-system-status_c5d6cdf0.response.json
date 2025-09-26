@@ -1,0 +1,12 @@
+{
+  "data": {
+    "activeOperationMode": {
+      "icon": "home",
+      "id": "f3241aed-061a-4939-a717-5001fed5f35f",
+      "name": "In Harbor"
+    },
+    "setupCompleted": true,
+    "state": "ready"
+  },
+  "whisperSchema": "v1/apis/edge"
+}

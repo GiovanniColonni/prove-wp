@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "commands": [],
+      "source": {
+        "deviceId": "0d028705-c3cc-4dd6-8cfb-f0f648cb610f"
+      }
+    },
+    {
+      "commands": [],
+      "source": {
+        "deviceId": "cc016505-c8a1-4fdc-8ed1-ecefb9cfb324"
+      }
+    },
+    {
+      "commands": [],
+      "source": {
+        "deviceId": "4571b9c4-c586-4e75-9a3c-4d28682ac485"
+      }
+    },
+    {
+      "commands": [],
+      "source": {
+        "deviceId": "40cb5f6d-929e-41db-a0ec-43dbf3458312"
+      }
+    },
+    {
+      "commands": [],
+      "source": {
+        "deviceId": "7d5a2072-1348-4659-967e-d5c042f1cbce"
+      }
+    },
+    {
+      "commands": [],
+      "source": {
+        "deviceId": "6b7cddcc-ea39-4eb7-a65f-3e6930f581dd"
+      }
+    },
+    {
+      "commands": [],
+      "source": {
+        "deviceId": "2b980e8f-647e-4acb-86e0-df4251d4ee95"
+      }
+    }
+  ],
+  "whisperSchema": "v1/apis/edge"
+}

@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "icon": "ship",
+      "id": "e9b4ea8a-4556-42a7-b66c-5eda41090a0f",
+      "name": "Sailing"
+    },
+    {
+      "icon": "home",
+      "id": "f3241aed-061a-4939-a717-5001fed5f35f",
+      "name": "In Harbor"
+    },
+    {
+      "icon": "anchor",
+      "id": "f9daaf4f-d1aa-4ef9-8274-d27c361c3132",
+      "name": "On Anchor"
+    }
+  ],
+  "whisperSchema": "v1/apis/edge"
+}

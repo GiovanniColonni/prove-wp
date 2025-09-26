@@ -1,0 +1,12 @@
+{
+  "data": {
+    "functionalStatus": {
+      "batteryStateOfCharge": "0.0",
+      "generatorRunning": false,
+      "gridInputPresent": false,
+      "solarInputPresent": true
+    },
+    "state": "ready"
+  },
+  "whisperSchema": "v1/apis/edge"
+}

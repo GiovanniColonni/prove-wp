@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "id": "49998e6a-0626-4ba7-a86d-f9eef8660f2e",
+      "modesOfOperations": [
+        "e9b4ea8a-4556-42a7-b66c-5eda41090a0f",
+        "f3241aed-061a-4939-a717-5001fed5f35f",
+        "f9daaf4f-d1aa-4ef9-8274-d27c361c3132"
+      ],
+      "name": "Generator start/stop on low battery",
+      "targetGenerators": [
+        "0d028705-c3cc-4dd6-8cfb-f0f648cb610f"
+      ],
+      "triggerConfig": {
+        "conditions": [
+          {
+            "deviceIds": [
+              "6b7cddcc-ea39-4eb7-a65f-3e6930f581dd"
+            ],
+            "measurement": "stateOfCharge",
+            "turnOffWhenValueExceeds": 80,
+            "turnOnWhenValueExceeds": 30
+          }
+        ],
+        "minimumRunTime": 20
+      },
+      "triggerType": "monitoring",
+      "whisperSchema": "v1/smartModule/autoStart"
+    },
+    {
+      "id": "b0de2cc8-a0c1-4ba7-ba5f-02488ffc477a",
+      "modesOfOperations": [],
+      "name": "Generator Interval running",
+      "targetGenerators": [],
+      "triggerConfig": {
+        "intervalSchema": {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "duration": "01:30",
+          "startTime": "05:00"
+        }
+      },
+      "triggerType": "time-based",
+      "whisperSchema": "v1/smartModule/intervalRunning"
+    }
+  ],
+  "whisperSchema": "v1/apis/edge"
+}

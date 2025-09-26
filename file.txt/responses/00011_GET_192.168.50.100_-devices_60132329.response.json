@@ -1,0 +1,3881 @@
+{
+  "data": [
+    {
+      "WhisperSchema": "v1/definitions/device",
+      "configuration": {},
+      "controls": {
+        "startGenerator": {
+          "description": {
+            "de": "",
+            "en": "Manually override and start generator"
+          },
+          "name": {
+            "de": "",
+            "en": "Start Generator"
+          },
+          "type": "object"
+        },
+        "stopGenerator": {
+          "description": {
+            "de": "",
+            "en": "Manually override start generator"
+          },
+          "name": {
+            "de": "",
+            "en": "Stop Generator"
+          },
+          "type": "object"
+        }
+      },
+      "device": {
+        "class": "generator",
+        "hardwareVersion": {
+          "primary": "1"
+        },
+        "modelCode": "DDC-GV",
+        "modelInfo": {
+          "alternativeNames": [
+            "Digital Diesel Control"
+          ],
+          "categories": [
+            "generator"
+          ],
+          "description": {
+            "de": "",
+            "en": "WhisperPower silent and compact generator"
+          },
+          "manufacturerName": "WhisperPower",
+          "name": "DDC-GenVerter",
+          "skus": [
+            "00000000"
+          ]
+        },
+        "nickName": "DDC-GenVerter",
+        "protocolVersion": "2.2",
+        "serialNumber": "A01091100305/A1",
+        "softwareVersion": {
+          "primary": "2.2",
+          "secondary": "2.2"
+        },
+        "supportedCommunicationProtocols": [
+          "DDC-GV"
+        ]
+      },
+      "deviceId": "0d028705-c3cc-4dd6-8cfb-f0f648cb610f",
+      "monitoring": {
+        "alarms": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the alarms active on the device"
+          },
+          "displayPriority": 3,
+          "items": {
+            "enum": [
+              "sensor digital 1",
+              "sensor digital 2",
+              "sensor digital 3",
+              "sensor digital 4",
+              "sensor analog 1",
+              "sensor analog 2",
+              "sensor backend temperature",
+              "generator low voltage 1",
+              "generator low voltage 2",
+              "generator high voltage 1",
+              "generator high voltage 2",
+              "generator high current 1",
+              "generator high current 2",
+              "generator high power 1",
+              "generator high power 2",
+              "low battery voltage",
+              "battery failed to charge",
+              "engine low rpm 1",
+              "engine low rpm 2",
+              "engine high rpm 1",
+              "engine high rpm 2",
+              "failed to start",
+              "failed to stop",
+              "emergency stop",
+              "maintenance needed",
+              "digital user input 1",
+              "digital user input 2",
+              "analog user input"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "de": "",
+            "en": "Device alarms"
+          },
+          "type": "array"
+        },
+        "device": {
+          "properties": {
+            "deviceID": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Identifier of the device"
+              },
+              "displayPriority": 2,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Device identifier"
+              },
+              "type": "number",
+              "unit": ""
+            },
+            "productionDay": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Production day of the device"
+              },
+              "displayPriority": 2,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Production day"
+              },
+              "type": "number",
+              "unit": ""
+            },
+            "productionMonth": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Production month of the device"
+              },
+              "displayPriority": 2,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Production month"
+              },
+              "type": "number",
+              "unit": ""
+            },
+            "productionNumber": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Production number of the device"
+              },
+              "displayPriority": 2,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Production number"
+              },
+              "type": "number",
+              "unit": ""
+            },
+            "productionYear": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Production year of the device"
+              },
+              "displayPriority": 2,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Production year"
+              },
+              "type": "number",
+              "unit": ""
+            },
+            "revisionCode": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Revision code of the device"
+              },
+              "displayPriority": 2,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Revision code"
+              },
+              "type": "number",
+              "unit": ""
+            },
+            "revisionWeek": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Revision week date of the device"
+              },
+              "displayPriority": 2,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Revision week date"
+              },
+              "type": "number",
+              "unit": ""
+            },
+            "revisionYear": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Revision year date of the device"
+              },
+              "displayPriority": 2,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Revision year date"
+              },
+              "type": "number",
+              "unit": ""
+            }
+          },
+          "type": "object"
+        },
+        "engine": {
+          "properties": {
+            "rpm": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The rpm of the engine"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 10,
+              "maximum": 3000,
+              "minimum": 2100,
+              "name": {
+                "de": "",
+                "en": "Engine rpm"
+              },
+              "type": "number",
+              "unit": "RPM",
+              "warningOver": 2900,
+              "warningUnder": 2200
+            },
+            "starterBatteryVoltage": {
+              "decimals": 3,
+              "description": {
+                "de": "",
+                "en": "The voltage of the engine starter battery"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 9,
+              "maximum": 15,
+              "minimum": 10.5,
+              "name": {
+                "de": "",
+                "en": "Starter battery voltage"
+              },
+              "type": "number",
+              "unit": "VDC",
+              "warningOver": 14.5,
+              "warningUnder": 11
+            },
+            "startsFailed": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The amount of failed starts of the generator"
+              },
+              "displayPriority": 7,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Failed starts"
+              },
+              "type": "number",
+              "unit": ""
+            },
+            "startsSuccesfull": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The amount of succesfull starts of the generator"
+              },
+              "displayPriority": 8,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Succesfull starts"
+              },
+              "type": "number",
+              "unit": ""
+            }
+          },
+          "type": "object"
+        },
+        "functionalState": {
+          "properties": {
+            "ecuState": {
+              "description": {
+                "de": "",
+                "en": "These states reflect the state of the device"
+              },
+              "displayPriority": 9,
+              "items": {
+                "enum": [
+                  "off",
+                  "idle",
+                  "startDelay",
+                  "pumping",
+                  "preheating",
+                  "cranking",
+                  "crankDelay",
+                  "safetyOnDelay",
+                  "warminUp",
+                  "running",
+                  "coolingDown",
+                  "stopping",
+                  "alarm"
+                ],
+                "type": "string"
+              },
+              "name": {
+                "de": "",
+                "en": "DDC state"
+              },
+              "type": "array"
+            },
+            "engineStartedBy": {
+              "description": {
+                "de": "",
+                "en": "Indicates which source started the generator"
+              },
+              "displayPriority": 8,
+              "name": {
+                "de": "",
+                "en": "Engine started by"
+              },
+              "type": "string"
+            },
+            "generatorType": {
+              "description": {
+                "de": "",
+                "en": "These states reflect the mode of the device"
+              },
+              "displayIsHidden": true,
+              "displayPriority": 10,
+              "name": {
+                "de": "",
+                "en": "Generator type"
+              },
+              "type": "array"
+            }
+          },
+          "type": "object"
+        },
+        "historic": {
+          "properties": {
+            "previousMaintenanceHours": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Runtime hours since last maintenance reset"
+              },
+              "displayPriority": 8,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Last Maintenance hours"
+              },
+              "type": "number",
+              "unit": ""
+            },
+            "previousMaintenanceMinutes": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Runtime minutes since last maintenance reset"
+              },
+              "displayPriority": 7,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Last Maintenance minutes"
+              },
+              "type": "number",
+              "unit": ""
+            },
+            "totalRunTimeHours": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Total Generator Run Time Hours"
+              },
+              "displayPriority": 10,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Total Generator Run Time Hours"
+              },
+              "type": "number",
+              "unit": ""
+            },
+            "totalRunTimeMinutes": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Total Generator Run Time Minutes"
+              },
+              "displayPriority": 9,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Total Generator Run Time Minutes"
+              },
+              "type": "number",
+              "unit": ""
+            }
+          },
+          "type": "object"
+        },
+        "operationalState": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the operational status of the device"
+          },
+          "displayPriority": 4,
+          "items": {
+            "enum": [
+              "offline",
+              "off",
+              "operational"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "de": "",
+            "en": "General Device States"
+          },
+          "type": "array"
+        },
+        "temperature": {
+          "properties": {
+            "engine": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The measured engine temperature"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 10,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Engine temperature"
+              },
+              "type": "number",
+              "unit": "celcius"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "name": "Elite 8",
+      "serialNumber": "Unknown"
+    },
+    {
+      "WhisperSchema": "v1/definitions/device",
+      "controls": {
+        "setOperationalState": {
+          "description": {
+            "de": "",
+            "en": "Enable/Disable Suntrack"
+          },
+          "monitoringField": "functionalState.state",
+          "monitoringValue": "On",
+          "nameOff": {
+            "de": "",
+            "en": "Disable Suntrack"
+          },
+          "nameOn": {
+            "de": "",
+            "en": "Enable Suntrack"
+          },
+          "type": "boolean"
+        }
+      },
+      "device": {
+        "class": "solar-charger",
+        "hardwareVersion": "2.53",
+        "id": "1",
+        "modelCode": "WP-Suntrack65",
+        "modelInfo": {
+          "alternativeNames": [
+            "WP-Suntrack 65"
+          ],
+          "categories": [
+            "solar-charger"
+          ],
+          "description": {
+            "de": "",
+            "en": "The WhisperPower Suntrack Solar Charge Controller is designed to harness the maximum amount of energy from your solar panels and delivery a 3 stage charging cycle to your batteries."
+          },
+          "manufacturerName": "WhisperPower",
+          "name": "WP-Suntrack65",
+          "skus": [
+            "60203010"
+          ]
+        },
+        "serialNumber": "0x9EF782F",
+        "softwareVersions": "7.23",
+        "supportedCommunicationProtocols": [
+          "WPCBus"
+        ]
+      },
+      "deviceId": "2b980e8f-647e-4acb-86e0-df4251d4ee95",
+      "historicalData": {
+        "productionToday": {
+          "decimals": 3,
+          "description": {
+            "de": "",
+            "en": "Energy produced today"
+          },
+          "maximum": 999.999,
+          "minimum": 0,
+          "name": {
+            "de": "",
+            "en": "Production today"
+          },
+          "type": "number",
+          "unit": "kWh"
+        },
+        "productionTotal": {
+          "decimals": 3,
+          "description": {
+            "de": "",
+            "en": "Total energy produced"
+          },
+          "maximum": 999.999,
+          "minimum": 0,
+          "name": {
+            "de": "",
+            "en": "Production total"
+          },
+          "type": "number",
+          "unit": "MWh"
+        },
+        "productionYesterday": {
+          "decimals": 3,
+          "description": {
+            "de": "",
+            "en": "Energy produced yesterday"
+          },
+          "maximum": 999.999,
+          "minimum": 0,
+          "name": {
+            "de": "",
+            "en": "Production yesterday"
+          },
+          "type": "number",
+          "unit": "kWh"
+        }
+      },
+      "monitoring": {
+        "alarms": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the alarms active on the device"
+          },
+          "displayPriority": 3,
+          "items": {
+            "enum": [
+              "common failure",
+              "failure",
+              "high battery voltage",
+              "earth",
+              "no battery",
+              "high temperature",
+              "high solar voltage",
+              "other failure"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "de": "",
+            "en": "Device alarms"
+          },
+          "type": "array"
+        },
+        "dc": {
+          "properties": {
+            "current": {
+              "decimals": 1,
+              "description": {
+                "de": "",
+                "en": "Amount of Amps for DC"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "maximum": 6553.5,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Output Current"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "voltage": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of volts for DC"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "maximum": 655.35,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Output Voltage"
+              },
+              "type": "number",
+              "unit": "VDC"
+            }
+          },
+          "type": "object"
+        },
+        "digitalIO": {
+          "properties": {
+            "relay1": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of auxiliary relay 1"
+              },
+              "name": {
+                "de": "",
+                "en": "Auxiliary relay 1"
+              },
+              "type": "string"
+            },
+            "relay2": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of auxiliary relay 3"
+              },
+              "name": {
+                "de": "",
+                "en": "Auxiliary relay 2"
+              },
+              "type": "string"
+            },
+            "relay3": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of auxiliary relay 3"
+              },
+              "name": {
+                "de": "",
+                "en": "Auxiliary relay 3"
+              },
+              "type": "string"
+            },
+            "relay4": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of relay 4"
+              },
+              "name": {
+                "de": "",
+                "en": "Auxiliary relay 4"
+              },
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "extendedState": {
+          "properties": {
+            "model": {
+              "description": {
+                "de": "",
+                "en": "Suntrack Model"
+              },
+              "displayPriority": 4,
+              "name": {
+                "de": "",
+                "en": "Model"
+              },
+              "type": "string"
+            },
+            "systemVoltage": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Nominal System Voltage"
+              },
+              "displayPriority": 3,
+              "maximum": 655,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "System voltage"
+              },
+              "type": "number",
+              "unit": "V"
+            }
+          },
+          "type": "object"
+        },
+        "functionalState": {
+          "properties": {
+            "chargeState": {
+              "description": {
+                "de": "",
+                "en": "These states reflect the phase of charging of the battery"
+              },
+              "displayPriority": 4,
+              "name": {
+                "de": "",
+                "en": "Battery charge phase"
+              },
+              "type": "string"
+            },
+            "remoteEntryState": {
+              "description": {
+                "de": "",
+                "en": "This states reflect the operational status of the device"
+              },
+              "displayPriority": 3,
+              "name": {
+                "de": "",
+                "en": "Remote Entry"
+              },
+              "type": "string"
+            },
+            "solarInputPresent": {
+              "description": {
+                "de": "",
+                "en": "Indicates if acceptable solar input is present"
+              },
+              "displayPriority": 5,
+              "name": {
+                "de": "",
+                "en": "Solar input present"
+              },
+              "type": "boolean"
+            },
+            "state": {
+              "description": {
+                "de": "",
+                "en": "This states reflect the operational status of the device"
+              },
+              "displayPriority": 3,
+              "name": {
+                "de": "",
+                "en": "State"
+              },
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "operationalState": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the operational status of the device"
+          },
+          "displayPriority": 3,
+          "items": {
+            "enum": [],
+            "type": "string"
+          },
+          "name": {
+            "de": "",
+            "en": "General Device States"
+          },
+          "type": "array"
+        },
+        "solarInput": {
+          "properties": {
+            "current": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Amount of current on the solar input"
+              },
+              "displayPriority": 9,
+              "maximum": 6553.5,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Solar input current"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "dailyProduction": {
+              "description": {
+                "de": "",
+                "en": "The amount of kWh produced per day"
+              },
+              "displayPriority": 7,
+              "name": {
+                "de": "",
+                "en": "Daily produced"
+              },
+              "type": "number",
+              "unit": "Wh"
+            },
+            "irradiationHoursLastDay": {
+              "decimals": 1,
+              "description": {
+                "de": "",
+                "en": "The total Solar hours yesterday"
+              },
+              "displayPriority": 3,
+              "name": {
+                "de": "",
+                "en": "Solar hours yesterday"
+              },
+              "type": "number",
+              "unit": "Hours"
+            },
+            "irradiationHoursThisDay": {
+              "decimals": 1,
+              "description": {
+                "de": "",
+                "en": "The total Solar hours today"
+              },
+              "displayPriority": 4,
+              "name": {
+                "de": "",
+                "en": "Solar hours today"
+              },
+              "type": "number",
+              "unit": "Hours"
+            },
+            "maxSolarPowerThisDay": {
+              "decimals": 1,
+              "description": {
+                "de": "",
+                "en": "The highest Solar power input today"
+              },
+              "displayPriority": 5,
+              "name": {
+                "de": "",
+                "en": "Peak Solar power Today"
+              },
+              "type": "number",
+              "unit": "W"
+            },
+            "maxSolarVoltageThisDay": {
+              "decimals": 1,
+              "description": {
+                "de": "",
+                "en": "The highest Solar input Voltage today"
+              },
+              "displayPriority": 5,
+              "name": {
+                "de": "",
+                "en": "Max Solar Voltage Today"
+              },
+              "type": "number",
+              "unit": "VDC"
+            },
+            "power": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The power of the solar input"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 8,
+              "maximum": 65355,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Solar input power"
+              },
+              "type": "number",
+              "unit": "W"
+            },
+            "totalProducedEnergy": {
+              "decimals": 1,
+              "description": {
+                "de": "",
+                "en": "The amount of MWh total produced energy"
+              },
+              "displayPriority": 6,
+              "name": {
+                "de": "",
+                "en": "Total produced"
+              },
+              "type": "number",
+              "unit": "Wh"
+            },
+            "voltage": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of volts on the solar input"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 10,
+              "maximum": 655.35,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Solar input voltage"
+              },
+              "type": "number",
+              "unit": "VDC"
+            }
+          },
+          "type": "object"
+        },
+        "temperature": {
+          "properties": {
+            "battery": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Battery temperature reflected in celcius (-127 C to 128 C)"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "maximum": 127,
+              "minimum": -128,
+              "name": {
+                "de": "",
+                "en": "Battery Temperature Sensor"
+              },
+              "type": "number",
+              "unit": "celcius"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "name": "Solar Charger 1",
+      "serialNumber": "Unknown"
+    },
+    {
+      "WhisperSchema": "v1/definitions/device",
+      "configuration": {},
+      "controls": {
+        "setDCOutputCurrentLimit": {
+          "decimals": 0,
+          "description": {
+            "de": "",
+            "en": "Max DC output power limit on the output of the charger"
+          },
+          "maximum": 100,
+          "minimum": 0,
+          "monitoringField": "dcSummary.currentLimitPercentage",
+          "name": {
+            "de": "",
+            "en": "DC output power limit"
+          },
+          "type": "number",
+          "unit": "%"
+        },
+        "setOperationState": {
+          "description": {
+            "de": "",
+            "en": "Toggle the operational state of the supreme pro"
+          },
+          "monitoringField": "operationalState",
+          "monitoringValue": "operational",
+          "nameOff": {
+            "de": "",
+            "en": "Disable Charger"
+          },
+          "nameOn": {
+            "de": "",
+            "en": "Enable Charger"
+          },
+          "type": "boolean"
+        }
+      },
+      "device": {
+        "class": "battery-charger",
+        "hardwareVersion": {
+          "primary": "1.04"
+        },
+        "modelCode": "WPBC24V100A",
+        "modelInfo": {
+          "alternativeNames": [
+            "BCSP"
+          ],
+          "categories": [
+            "Charger"
+          ],
+          "description": {
+            "de": "",
+            "en": ""
+          },
+          "manufacturerName": "WhisperPower",
+          "name": "BC Supreme Pro 24V100A",
+          "skus": [
+            "00000000"
+          ]
+        },
+        "nickName": "BC Supreme Pro",
+        "protocolVersion": "1.00",
+        "serialNumber": "0x9A9A9A9A",
+        "softwareVersion": {
+          "primary": "2.03"
+        },
+        "supportedCommunicationProtocols": [
+          "WhisperConnect"
+        ]
+      },
+      "deviceId": "40cb5f6d-929e-41db-a0ec-43dbf3458312",
+      "historical": {},
+      "monitoring": {
+        "acInput": {
+          "properties": {
+            "current": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of AC current on the input of the charger"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 9,
+              "maximum": 655.35,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Current"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "currentLimit": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The max limit of AC current on the input of the charger"
+              },
+              "displayHidden": true,
+              "displayPriority": 8,
+              "maximum": 128,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Current limit"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "load": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The load of AC input on the input of the charger"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 6,
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Load"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "power": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Amount of power on the input of the charger"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 7,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Power"
+              },
+              "type": "number",
+              "unit": "VA"
+            },
+            "voltage": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of AC volts on the input of the charger"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 10,
+              "maximum": 655.35,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Voltage"
+              },
+              "type": "number",
+              "unit": "VAC"
+            }
+          },
+          "type": "object"
+        },
+        "alarms": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the alarms active on the device"
+          },
+          "displayPriority": 3,
+          "items": {
+            "enum": [
+              "common failure",
+              "high output voltage",
+              "low output voltage",
+              "high internal temperature",
+              "high battery temperature"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "de": "",
+            "en": "Device alarms"
+          },
+          "type": "array"
+        },
+        "dcSlave": {
+          "properties": {
+            "current1": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of amps going to the battery"
+              },
+              "displayAnalytics": {
+                "group": "Slave Current",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 2,
+              "maximum": 653.55,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Slave current 1"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "current2": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of amps going to the battery"
+              },
+              "displayAnalytics": {
+                "group": "Slave Current",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 2,
+              "maximum": 653.55,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Slave current 2"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "load1": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The load of the charger DC output"
+              },
+              "displayAnalytics": {
+                "group": "Slave Load",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Slave load 1"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "load2": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The load of the charger DC output"
+              },
+              "displayAnalytics": {
+                "group": "Slave Load",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Slave load 2"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "voltage1": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of volts for DC Battery"
+              },
+              "displayAnalytics": {
+                "group": "Slave Voltage",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 2,
+              "maximum": 655.35,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Slave Voltage 1"
+              },
+              "type": "number",
+              "unit": "VDC"
+            },
+            "voltage2": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of volts for DC Battery"
+              },
+              "displayAnalytics": {
+                "group": "Slave Voltage",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 2,
+              "maximum": 655.35,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Slave Voltage 2"
+              },
+              "type": "number",
+              "unit": "VDC"
+            }
+          },
+          "type": "object"
+        },
+        "dcSummary": {
+          "properties": {
+            "current": {
+              "decimals": 9,
+              "description": {
+                "de": "",
+                "en": "Amount of amps going to the battery"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 9,
+              "maximum": 653.55,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Current"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "currentLimit": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Max current limit going to the battery"
+              },
+              "displayPriority": 8,
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Current limit Percentage"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "currentLimitPercentage": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Max current limit percentage going to the battery"
+              },
+              "displayPriority": 7,
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Current limit percentage"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "load": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The load of the charger DC output"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 6,
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Load"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "voltage": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of volts for DC Battery"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 10,
+              "maximum": 655.35,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Voltage"
+              },
+              "type": "number",
+              "unit": "VDC"
+            }
+          },
+          "type": "object"
+        },
+        "digitalIO": {
+          "properties": {
+            "digitalInput1": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of digital input 1"
+              },
+              "items": {
+                "enum": [
+                  "inactive",
+                  "active"
+                ],
+                "type": "string"
+              },
+              "name": {
+                "de": "",
+                "en": "Digital input 1 state"
+              },
+              "type": "array"
+            },
+            "digitalInput2": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of digital input 2"
+              },
+              "items": {
+                "enum": [
+                  "inactive",
+                  "active"
+                ],
+                "type": "string"
+              },
+              "name": {
+                "de": "",
+                "en": "Digital input 2 state"
+              },
+              "type": "array"
+            },
+            "digitalOutput1": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of digital output 1"
+              },
+              "items": {
+                "enum": [
+                  "inactive",
+                  "active"
+                ],
+                "type": "string"
+              },
+              "name": {
+                "de": "",
+                "en": "Digital output 1 state"
+              },
+              "type": "array"
+            },
+            "digitalOutput2": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of digital output 2"
+              },
+              "items": {
+                "enum": [
+                  "inactive",
+                  "active"
+                ],
+                "type": "string"
+              },
+              "name": {
+                "de": "",
+                "en": "Digital output 2 state"
+              },
+              "type": "array"
+            }
+          },
+          "type": "object"
+        },
+        "dipswitches": {
+          "description": {
+            "de": "",
+            "en": "A list of set dipswitches on the device"
+          },
+          "items": {
+            "enum": [
+              "dipswitch 1",
+              "dipswitch 2",
+              "dipswitch 3",
+              "dipswitch 4",
+              "dipswitch 5",
+              "dipswitch 6",
+              "dipswitch 7"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "de": "",
+            "en": "Dipswitches"
+          },
+          "type": "array"
+        },
+        "extendedState": {
+          "properties": {
+            "batteryType": {
+              "description": {
+                "de": "",
+                "en": "Reflects the battery type charging algorithm"
+              },
+              "name": {
+                "de": "",
+                "en": "Battery type"
+              },
+              "type": "string"
+            },
+            "diodeCompensation": {
+              "description": {
+                "de": "",
+                "en": "Indicates if voltage diode compensation is enabled"
+              },
+              "name": {
+                "de": "",
+                "en": "Diode compensation"
+              },
+              "type": "boolean"
+            },
+            "temperatureCompensation": {
+              "description": {
+                "de": "",
+                "en": "Indicates if temperature compensation is enabled"
+              },
+              "name": {
+                "de": "",
+                "en": "Temperature compensation"
+              },
+              "type": "boolean"
+            }
+          },
+          "type": "object"
+        },
+        "functionalState": {
+          "properties": {
+            "acInputPresent": {
+              "description": {
+                "de": "",
+                "en": "Indicates if acceptable AC input is present"
+              },
+              "name": {
+                "de": "",
+                "en": "AC input present"
+              },
+              "type": "boolean"
+            },
+            "chargerState": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of charging"
+              },
+              "items": {
+                "enum": [
+                  "bulk",
+                  "20-40%",
+                  "absorption",
+                  "60-80%",
+                  "float",
+                  "maintenance"
+                ],
+                "type": "string"
+              },
+              "name": {
+                "de": "",
+                "en": "Charger state"
+              },
+              "type": "array"
+            }
+          },
+          "type": "object"
+        },
+        "operationalState": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the operational status of the device"
+          },
+          "displayPriority": 3,
+          "items": {
+            "enum": [
+              "offline",
+              "off",
+              "operational"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "de": "",
+            "en": "General Device States"
+          },
+          "type": "array"
+        },
+        "temperature": {
+          "properties": {
+            "ambient": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Ambient temperature reflected in celcius (-127 C to 128 C)"
+              },
+              "displayAnalytics": {
+                "group": "Temperature",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 8,
+              "maximum": 127,
+              "minimum": -128,
+              "name": {
+                "de": "",
+                "en": "Ambient"
+              },
+              "type": "number",
+              "unit": "celcius"
+            },
+            "battery": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Battery temperature reflected in celcius (-127 C to 128 C)"
+              },
+              "displayPriority": 10,
+              "group": "Temperature",
+              "maximum": 127,
+              "minimum": -128,
+              "name": {
+                "de": "",
+                "en": "Battery Temperature Sensor"
+              },
+              "type": "number",
+              "unit": "celcius"
+            },
+            "heatsink": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Heatsink temperature reflected in celcius (-127 C to 128 C)"
+              },
+              "displayAnalytics": {
+                "group": "Temperature",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 7,
+              "maximum": 127,
+              "minimum": -128,
+              "name": {
+                "de": "",
+                "en": "Heatsink"
+              },
+              "type": "number",
+              "unit": "celcius"
+            },
+            "transformer": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Transformer temperature reflected in celcius (-127 C to 128 C)"
+              },
+              "displayAnalytics": {
+                "group": "Temperature",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 9,
+              "maximum": 127,
+              "minimum": -128,
+              "name": {
+                "de": "",
+                "en": "Transformer"
+              },
+              "type": "number",
+              "unit": "celcius"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "name": "WP-BC Supreme 2",
+      "serialNumber": "Unknown"
+    },
+    {
+      "WhisperSchema": "v1/definitions/device",
+      "configuration": {},
+      "controls": {
+        "setDCOutputCurrentLimit": {
+          "decimals": 0,
+          "description": {
+            "de": "",
+            "en": "Max DC output power limit on the output of the charger"
+          },
+          "maximum": 100,
+          "minimum": 0,
+          "monitoringField": "dcSummary.currentLimitPercentage",
+          "name": {
+            "de": "",
+            "en": "DC output power limit"
+          },
+          "type": "number",
+          "unit": "%"
+        },
+        "setOperationState": {
+          "description": {
+            "de": "",
+            "en": "Toggle the operational state of the supreme pro"
+          },
+          "monitoringField": "operationalState",
+          "monitoringValue": "operational",
+          "nameOff": {
+            "de": "",
+            "en": "Disable Charger"
+          },
+          "nameOn": {
+            "de": "",
+            "en": "Enable Charger"
+          },
+          "type": "boolean"
+        }
+      },
+      "device": {
+        "class": "battery-charger",
+        "hardwareVersion": {
+          "primary": "1.04"
+        },
+        "modelCode": "WPBC24V100A",
+        "modelInfo": {
+          "alternativeNames": [
+            "BCSP"
+          ],
+          "categories": [
+            "Charger"
+          ],
+          "description": {
+            "de": "",
+            "en": ""
+          },
+          "manufacturerName": "WhisperPower",
+          "name": "BC Supreme Pro 24V100A",
+          "skus": [
+            "00000000"
+          ]
+        },
+        "nickName": "BC Supreme Pro",
+        "protocolVersion": "1.00",
+        "serialNumber": "0x9A9A9A9A",
+        "softwareVersion": {
+          "primary": "2.03"
+        },
+        "supportedCommunicationProtocols": [
+          "WhisperConnect"
+        ]
+      },
+      "deviceId": "4571b9c4-c586-4e75-9a3c-4d28682ac485",
+      "historical": {},
+      "monitoring": {
+        "acInput": {
+          "properties": {
+            "current": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of AC current on the input of the charger"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 9,
+              "maximum": 655.35,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Current"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "currentLimit": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The max limit of AC current on the input of the charger"
+              },
+              "displayHidden": true,
+              "displayPriority": 8,
+              "maximum": 128,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Current limit"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "load": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The load of AC input on the input of the charger"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 6,
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Load"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "power": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Amount of power on the input of the charger"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 7,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Power"
+              },
+              "type": "number",
+              "unit": "VA"
+            },
+            "voltage": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of AC volts on the input of the charger"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 10,
+              "maximum": 655.35,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Voltage"
+              },
+              "type": "number",
+              "unit": "VAC"
+            }
+          },
+          "type": "object"
+        },
+        "alarms": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the alarms active on the device"
+          },
+          "displayPriority": 3,
+          "items": {
+            "enum": [
+              "common failure",
+              "high output voltage",
+              "low output voltage",
+              "high internal temperature",
+              "high battery temperature"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "de": "",
+            "en": "Device alarms"
+          },
+          "type": "array"
+        },
+        "dcSlave": {
+          "properties": {
+            "current1": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of amps going to the battery"
+              },
+              "displayAnalytics": {
+                "group": "Slave Current",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 2,
+              "maximum": 653.55,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Slave current 1"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "current2": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of amps going to the battery"
+              },
+              "displayAnalytics": {
+                "group": "Slave Current",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 2,
+              "maximum": 653.55,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Slave current 2"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "load1": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The load of the charger DC output"
+              },
+              "displayAnalytics": {
+                "group": "Slave Load",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Slave load 1"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "load2": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The load of the charger DC output"
+              },
+              "displayAnalytics": {
+                "group": "Slave Load",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Slave load 2"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "voltage1": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of volts for DC Battery"
+              },
+              "displayAnalytics": {
+                "group": "Slave Voltage",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 2,
+              "maximum": 655.35,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Slave Voltage 1"
+              },
+              "type": "number",
+              "unit": "VDC"
+            },
+            "voltage2": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of volts for DC Battery"
+              },
+              "displayAnalytics": {
+                "group": "Slave Voltage",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 2,
+              "maximum": 655.35,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Slave Voltage 2"
+              },
+              "type": "number",
+              "unit": "VDC"
+            }
+          },
+          "type": "object"
+        },
+        "dcSummary": {
+          "properties": {
+            "current": {
+              "decimals": 9,
+              "description": {
+                "de": "",
+                "en": "Amount of amps going to the battery"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 9,
+              "maximum": 653.55,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Current"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "currentLimit": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Max current limit going to the battery"
+              },
+              "displayPriority": 8,
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Current limit Percentage"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "currentLimitPercentage": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Max current limit percentage going to the battery"
+              },
+              "displayPriority": 7,
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Current limit percentage"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "load": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The load of the charger DC output"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 6,
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Load"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "voltage": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of volts for DC Battery"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 10,
+              "maximum": 655.35,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Voltage"
+              },
+              "type": "number",
+              "unit": "VDC"
+            }
+          },
+          "type": "object"
+        },
+        "digitalIO": {
+          "properties": {
+            "digitalInput1": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of digital input 1"
+              },
+              "items": {
+                "enum": [
+                  "inactive",
+                  "active"
+                ],
+                "type": "string"
+              },
+              "name": {
+                "de": "",
+                "en": "Digital input 1 state"
+              },
+              "type": "array"
+            },
+            "digitalInput2": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of digital input 2"
+              },
+              "items": {
+                "enum": [
+                  "inactive",
+                  "active"
+                ],
+                "type": "string"
+              },
+              "name": {
+                "de": "",
+                "en": "Digital input 2 state"
+              },
+              "type": "array"
+            },
+            "digitalOutput1": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of digital output 1"
+              },
+              "items": {
+                "enum": [
+                  "inactive",
+                  "active"
+                ],
+                "type": "string"
+              },
+              "name": {
+                "de": "",
+                "en": "Digital output 1 state"
+              },
+              "type": "array"
+            },
+            "digitalOutput2": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of digital output 2"
+              },
+              "items": {
+                "enum": [
+                  "inactive",
+                  "active"
+                ],
+                "type": "string"
+              },
+              "name": {
+                "de": "",
+                "en": "Digital output 2 state"
+              },
+              "type": "array"
+            }
+          },
+          "type": "object"
+        },
+        "dipswitches": {
+          "description": {
+            "de": "",
+            "en": "A list of set dipswitches on the device"
+          },
+          "items": {
+            "enum": [
+              "dipswitch 1",
+              "dipswitch 2",
+              "dipswitch 3",
+              "dipswitch 4",
+              "dipswitch 5",
+              "dipswitch 6",
+              "dipswitch 7"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "de": "",
+            "en": "Dipswitches"
+          },
+          "type": "array"
+        },
+        "extendedState": {
+          "properties": {
+            "batteryType": {
+              "description": {
+                "de": "",
+                "en": "Reflects the battery type charging algorithm"
+              },
+              "name": {
+                "de": "",
+                "en": "Battery type"
+              },
+              "type": "string"
+            },
+            "diodeCompensation": {
+              "description": {
+                "de": "",
+                "en": "Indicates if voltage diode compensation is enabled"
+              },
+              "name": {
+                "de": "",
+                "en": "Diode compensation"
+              },
+              "type": "boolean"
+            },
+            "temperatureCompensation": {
+              "description": {
+                "de": "",
+                "en": "Indicates if temperature compensation is enabled"
+              },
+              "name": {
+                "de": "",
+                "en": "Temperature compensation"
+              },
+              "type": "boolean"
+            }
+          },
+          "type": "object"
+        },
+        "functionalState": {
+          "properties": {
+            "acInputPresent": {
+              "description": {
+                "de": "",
+                "en": "Indicates if acceptable AC input is present"
+              },
+              "name": {
+                "de": "",
+                "en": "AC input present"
+              },
+              "type": "boolean"
+            },
+            "chargerState": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of charging"
+              },
+              "items": {
+                "enum": [
+                  "bulk",
+                  "20-40%",
+                  "absorption",
+                  "60-80%",
+                  "float",
+                  "maintenance"
+                ],
+                "type": "string"
+              },
+              "name": {
+                "de": "",
+                "en": "Charger state"
+              },
+              "type": "array"
+            }
+          },
+          "type": "object"
+        },
+        "operationalState": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the operational status of the device"
+          },
+          "displayPriority": 3,
+          "items": {
+            "enum": [
+              "offline",
+              "off",
+              "operational"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "de": "",
+            "en": "General Device States"
+          },
+          "type": "array"
+        },
+        "temperature": {
+          "properties": {
+            "ambient": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Ambient temperature reflected in celcius (-127 C to 128 C)"
+              },
+              "displayAnalytics": {
+                "group": "Temperature",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 8,
+              "maximum": 127,
+              "minimum": -128,
+              "name": {
+                "de": "",
+                "en": "Ambient"
+              },
+              "type": "number",
+              "unit": "celcius"
+            },
+            "battery": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Battery temperature reflected in celcius (-127 C to 128 C)"
+              },
+              "displayPriority": 10,
+              "group": "Temperature",
+              "maximum": 127,
+              "minimum": -128,
+              "name": {
+                "de": "",
+                "en": "Battery Temperature Sensor"
+              },
+              "type": "number",
+              "unit": "celcius"
+            },
+            "heatsink": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Heatsink temperature reflected in celcius (-127 C to 128 C)"
+              },
+              "displayAnalytics": {
+                "group": "Temperature",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 7,
+              "maximum": 127,
+              "minimum": -128,
+              "name": {
+                "de": "",
+                "en": "Heatsink"
+              },
+              "type": "number",
+              "unit": "celcius"
+            },
+            "transformer": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Transformer temperature reflected in celcius (-127 C to 128 C)"
+              },
+              "displayAnalytics": {
+                "group": "Temperature",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 9,
+              "maximum": 127,
+              "minimum": -128,
+              "name": {
+                "de": "",
+                "en": "Transformer"
+              },
+              "type": "number",
+              "unit": "celcius"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "name": "WP-BC Supreme 1",
+      "serialNumber": "Unknown"
+    },
+    {
+      "WhisperSchema": "v1/definitions/device",
+      "configuration": {},
+      "controls": {
+        "resetBatteries": {
+          "description": {
+            "de": "",
+            "en": "Resets the batteries connected to the WIB"
+          },
+          "displayPriority": 2,
+          "name": {
+            "de": "",
+            "en": "Reset Batteries"
+          }
+        },
+        "resetWIB": {
+          "description": {
+            "de": "",
+            "en": "Resets the WIB, useful when the WIB is in error"
+          },
+          "displayPriority": 0,
+          "name": {
+            "de": "",
+            "en": "Force reset WIB"
+          }
+        },
+        "resetWIBOld": {
+          "description": {
+            "de": "",
+            "en": "Resets the WIB, useful when the WIB is in error. For software versions older than 2.38"
+          },
+          "displayPriority": 1,
+          "name": {
+            "de": "",
+            "en": "Force reset WIB (Old software)"
+          }
+        }
+      },
+      "device": {
+        "class": "battery-monitor",
+        "hardwareVersion": "2.00",
+        "modelCode": "WIB",
+        "modelInfo": {
+          "alternativeNames": [
+            "WIB"
+          ],
+          "categories": [
+            "battery-monitor"
+          ],
+          "description": {
+            "de": "",
+            "en": "WIB is a professional grade battery monitor with remote monitoring capability."
+          },
+          "manufacturerName": "WhisperPower",
+          "name": "WhisperPower Interface Box",
+          "skus": [
+            "00000000"
+          ]
+        },
+        "nickName": "WhisperPower Interface Box",
+        "protocolVersion": "1.00",
+        "serialNumber": "wib-wib",
+        "softwareVersion": {
+          "primary": "2.23.0359"
+        },
+        "supportedCommunicationProtocols": [
+          "CanOpen"
+        ]
+      },
+      "deviceId": "6b7cddcc-ea39-4eb7-a65f-3e6930f581dd",
+      "historical": {},
+      "monitoring": {
+        "alarms": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the alarms active on the device"
+          },
+          "displayPriority": 3,
+          "name": {
+            "de": "",
+            "en": "Device alarms"
+          },
+          "type": "array"
+        },
+        "alarmsPrevious": {
+          "description": {
+            "de": "",
+            "en": "Stored alarms from the device"
+          },
+          "displayPriority": 3,
+          "name": {
+            "de": "",
+            "en": "Last Recorded Device alarms"
+          },
+          "type": "array"
+        },
+        "battery": {
+          "properties": {
+            "busVoltage": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of volts for load side of the battery"
+              },
+              "displayIsHidden": true,
+              "displayPriority": 0,
+              "maximum": 65.535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Bus Voltage"
+              },
+              "type": "number",
+              "unit": "VDC"
+            },
+            "capacityRemaining": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Amount of Ah remaining in battery"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 7,
+              "maximum": 429496729.5,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Battery capacity remaining"
+              },
+              "type": "number",
+              "unit": "Ah"
+            },
+            "current": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Amount of amps going in our out of the battery"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 8,
+              "maximum": 3276.7,
+              "minimum": -3276.8,
+              "name": {
+                "de": "",
+                "en": "Battery current"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "cycles": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Amount of cycles the battery has gone through"
+              },
+              "displayPriority": 6,
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Battery cycles"
+              },
+              "type": "number",
+              "unit": "cycles"
+            },
+            "stateOfCharge": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Battery state of charge in percentage"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 10,
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Battery SOC"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "stateOfHealth": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Battery state of health in percentage"
+              },
+              "displayPriority": 5,
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Battery SoH"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "timeRemaining": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Amount of minutes remaining in battery"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 4,
+              "name": {
+                "de": "",
+                "en": "Battery time remaining"
+              },
+              "type": "number",
+              "unit": "minutes"
+            },
+            "voltage": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of volts for Battery"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 9,
+              "maximum": 65.535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Battery Voltage"
+              },
+              "type": "number",
+              "unit": "VDC"
+            }
+          },
+          "type": "object"
+        },
+        "extendedState": {
+          "properties": {
+            "capacityTotal": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Total capacity of the battery"
+              },
+              "displayPriority": 10,
+              "name": {
+                "de": "",
+                "en": "Total Battery capacity"
+              },
+              "type": "number",
+              "unit": "Ah"
+            },
+            "hardwareVersion": {
+              "description": {
+                "de": "",
+                "en": "Hardware version of the device"
+              },
+              "displayPriority": 9,
+              "name": {
+                "de": "",
+                "en": "Hardware Version"
+              },
+              "type": "string"
+            },
+            "softwareVersionMajor": {
+              "description": {
+                "de": "",
+                "en": "Software version of the device"
+              },
+              "displayPriority": 8,
+              "name": {
+                "de": "",
+                "en": "Software Version Major"
+              },
+              "type": "string"
+            },
+            "softwareVersionMinor": {
+              "description": {
+                "de": "",
+                "en": "Software version of the device"
+              },
+              "displayPriority": 7,
+              "name": {
+                "de": "",
+                "en": "Software Version Minor"
+              },
+              "type": "string"
+            },
+            "softwareVersionPatch": {
+              "description": {
+                "de": "",
+                "en": "Software version of the device"
+              },
+              "displayPriority": 6,
+              "name": {
+                "de": "",
+                "en": "Software Version Patch"
+              },
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "functionalState": {
+          "properties": {
+            "batteryChargingState": {
+              "description": {
+                "de": "",
+                "en": "Indicates if the battery is being charged or discharged"
+              },
+              "displayPriority": 10,
+              "items": {
+                "enum": [
+                  "Normal",
+                  "EOC",
+                  "Fan on",
+                  "Balancing",
+                  "Full",
+                  "Discharging",
+                  "Charging"
+                ],
+                "type": "string"
+              },
+              "name": {
+                "de": "",
+                "en": "Battery charging state"
+              },
+              "type": "array"
+            },
+            "batteryError": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of the battery modules"
+              },
+              "displayPriority": 11,
+              "name": {
+                "de": "",
+                "en": "Battery modules status"
+              },
+              "type": "string"
+            },
+            "mainRelay": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of the Main relay"
+              },
+              "displayPriority": 12,
+              "name": {
+                "de": "",
+                "en": "Main Relay"
+              },
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "operationalState": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the operational status of the device"
+          },
+          "displayPriority": 3,
+          "name": {
+            "de": "",
+            "en": "General Device States"
+          },
+          "type": "array"
+        },
+        "temperature": {
+          "properties": {
+            "battery": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Battery temperature reflected in celcius (-127 C to 128 C)"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 3,
+              "maximum": 127,
+              "minimum": -128,
+              "name": {
+                "de": "",
+                "en": "Battery Temperature sensor"
+              },
+              "type": "number",
+              "unit": "celcius"
+            }
+          },
+          "type": "object"
+        },
+        "warnings": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the warnings active on the device"
+          },
+          "displayPriority": 3,
+          "name": {
+            "de": "",
+            "en": "Device warnings"
+          },
+          "type": "array"
+        },
+        "warningsPervious": {
+          "description": {
+            "de": "",
+            "en": "Stored warnings from the device"
+          },
+          "displayPriority": 3,
+          "name": {
+            "de": "",
+            "en": "Last Recorded Device warnings"
+          },
+          "type": "array"
+        }
+      },
+      "name": "Battery Monitor 1",
+      "serialNumber": "Unknown"
+    },
+    {
+      "WhisperSchema": "v1/definitions/device",
+      "controls": {},
+      "device": {
+        "class": "power-converter",
+        "hardwareVersion": {
+          "primary": "2.03"
+        },
+        "modelCode": "PMG-FRAME-I",
+        "modelInfo": {
+          "alternativeNames": [
+            "WP-PMG Frame 1",
+            "WP-PMG Frame I"
+          ],
+          "categories": [
+            "power-converter"
+          ],
+          "description": {
+            "de": "",
+            "en": ""
+          },
+          "manufacturerName": "WhisperPower",
+          "name": "WP-PMG1",
+          "skus": [
+            "00000000"
+          ]
+        },
+        "nickName": "WP-PMG",
+        "protocolVersion": "1.00",
+        "serialNumber": "0x9A9A9A9A",
+        "softwareVersion": {
+          "primary": "2.03",
+          "secondary": "2.03"
+        },
+        "supportedCommunicationProtocols": [
+          "PMG"
+        ]
+      },
+      "deviceId": "7d5a2072-1348-4659-967e-d5c042f1cbce",
+      "historicalData": {},
+      "monitoring": {
+        "acInput": {
+          "displayIsHidden": true,
+          "properties": {
+            "current": {
+              "decimals": 1,
+              "description": {
+                "de": "",
+                "en": "Amount of AC current on the output of the pmg"
+              },
+              "displayIsHidden": true,
+              "maximum": 6553.5,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "AC input current"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "voltage": {
+              "decimals": 1,
+              "description": {
+                "de": "",
+                "en": "Amount of AC volts on the output of the pmg"
+              },
+              "displayIsHidden": true,
+              "maximum": 6553.5,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "AC input voltage"
+              },
+              "type": "number",
+              "unit": "VAC"
+            }
+          },
+          "type": "object"
+        },
+        "acOutput": {
+          "properties": {
+            "current": {
+              "decimals": 1,
+              "description": {
+                "de": "",
+                "en": "Amount of AC current on the output of the pmg"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 2,
+              "maximum": 6553.5,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "AC output current"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "load": {
+              "description": {
+                "de": "",
+                "en": "Amount of AC power on the output of the pmg"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 4,
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "AC output load"
+              },
+              "type": "number",
+              "unit": "%",
+              "warningOver": 90,
+              "warningUnder": 0
+            },
+            "power": {
+              "description": {
+                "de": "",
+                "en": "Amount of AC power on the output of the pmg"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 1,
+              "maximum": 6400,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "AC output power"
+              },
+              "type": "number",
+              "unit": "VA",
+              "warningOver": 5600,
+              "warningUnder": 0
+            },
+            "voltage": {
+              "decimals": 1,
+              "description": {
+                "de": "",
+                "en": "Amount of AC volts on the output of the pmg"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 3,
+              "maximum": 6553.5,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "AC output voltage"
+              },
+              "type": "number",
+              "unit": "VAC"
+            }
+          },
+          "type": "object"
+        },
+        "alarms": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the alarms active on the device"
+          },
+          "displayPriority": 3,
+          "name": {
+            "de": "",
+            "en": "Device alarms"
+          },
+          "type": "array"
+        },
+        "engine": {
+          "properties": {
+            "rpm": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The rpm of the engine"
+              },
+              "maximum": 65355,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Engine rpm"
+              },
+              "type": "number",
+              "unit": "rpm"
+            }
+          },
+          "type": "object"
+        },
+        "extendedState": {
+          "properties": {
+            "firmwareVersionMajor": {
+              "description": {
+                "de": "",
+                "en": "Firmware Version major"
+              },
+              "name": {
+                "de": "",
+                "en": "Firmware Version major"
+              },
+              "type": "number"
+            },
+            "firmwareVersionMinor": {
+              "description": {
+                "de": "",
+                "en": "Firmware Version minor"
+              },
+              "name": {
+                "de": "",
+                "en": "Firmware Version minor"
+              },
+              "type": "number"
+            },
+            "hardwareVersionMajor": {
+              "description": {
+                "de": "",
+                "en": "Hardware Version major"
+              },
+              "name": {
+                "de": "",
+                "en": "Hardware Version major"
+              },
+              "type": "number"
+            },
+            "hardwareVersionMinor": {
+              "description": {
+                "de": "",
+                "en": "Hardware Version minor"
+              },
+              "name": {
+                "de": "",
+                "en": "Hardware Version minor"
+              },
+              "type": "number"
+            },
+            "serialNumber": {
+              "description": {
+                "de": "",
+                "en": "Hardware Version major"
+              },
+              "name": {
+                "de": "",
+                "en": "Serial number"
+              },
+              "type": "number"
+            }
+          },
+          "type": "object"
+        },
+        "functionalState": {
+          "properties": {
+            "calibration": {
+              "description": {
+                "de": "",
+                "en": "Calibration on/off"
+              },
+              "name": {
+                "de": "",
+                "en": "Calibration"
+              },
+              "type": "str"
+            },
+            "coolingMode": {
+              "description": {
+                "de": "",
+                "en": "Cooling mode state"
+              },
+              "name": {
+                "de": "",
+                "en": "Cooling Mode"
+              },
+              "type": "str"
+            },
+            "ecuState": {
+              "description": {
+                "de": "",
+                "en": "state of the generator"
+              },
+              "displayPriority": 10,
+              "name": {
+                "de": "",
+                "en": "Ecu state"
+              },
+              "type": "str"
+            },
+            "generation": {
+              "description": {
+                "de": "",
+                "en": "Stepper enable state"
+              },
+              "name": {
+                "de": "",
+                "en": "Generation"
+              },
+              "type": "str"
+            }
+          },
+          "type": "object"
+        },
+        "historical": {
+          "properties": {
+            "totalWorkHours": {
+              "description": {
+                "de": "",
+                "en": "Total Work Hours"
+              },
+              "displayPriority": 2,
+              "name": {
+                "de": "",
+                "en": "Total Work Hours"
+              },
+              "type": "number",
+              "unit": "Hours"
+            },
+            "totalWorkMinutes": {
+              "description": {
+                "de": "",
+                "en": "Total Work Minutes"
+              },
+              "displayPriority": 2,
+              "name": {
+                "de": "",
+                "en": "Total Work Minutes"
+              },
+              "type": "number",
+              "unit": "Minutes"
+            }
+          },
+          "type": "object"
+        },
+        "inverter": {
+          "properties": {
+            "PWMScaleCount": {
+              "description": {
+                "de": "",
+                "en": "PWM scale count"
+              },
+              "name": {
+                "de": "",
+                "en": "PWM scale count"
+              },
+              "type": "number"
+            },
+            "deltaDCBusCount": {
+              "description": {
+                "de": "",
+                "en": "Delta DC bus count"
+              },
+              "name": {
+                "de": "",
+                "en": "Delta DC bus count"
+              },
+              "type": "number"
+            }
+          },
+          "type": "object"
+        },
+        "operationalState": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the operational status of the device"
+          },
+          "displayPriority": 5,
+          "items": {
+            "enum": [
+              "offline",
+              "off",
+              "operational"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "de": "",
+            "en": "General Device States"
+          },
+          "type": "array"
+        },
+        "temperature": {
+          "properties": {
+            "inverter": {
+              "decimals": 1,
+              "description": {
+                "de": "",
+                "en": "Inverter temperature temperature reflected in celcius (-127 C to 128 C)"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "maximum": 3276.7,
+              "minimum": -3276.8,
+              "name": {
+                "de": "",
+                "en": "Inverter"
+              },
+              "type": "number",
+              "unit": "celcius"
+            }
+          },
+          "type": "object"
+        },
+        "warnings": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the alarms active on the device"
+          },
+          "displayPriority": 4,
+          "name": {
+            "de": "",
+            "en": "Device warnings"
+          },
+          "type": "array"
+        }
+      },
+      "name": "PMG Frame I",
+      "serialNumber": "Unknown"
+    },
+    {
+      "WhisperSchema": "v1/definitions/device",
+      "configuration": {
+        "whisperConnect": {
+          "properties": {
+            "additionalEnabled": {
+              "description": {
+                "de": "",
+                "en": "Enables additional monitoring messages"
+              },
+              "name": {
+                "de": "",
+                "en": "WhisperConnect additional messages enabled"
+              },
+              "type": "boolean"
+            },
+            "transmitPeriod": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The rate at which monitoring messages are send"
+              },
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "WhisperConnect transmit period"
+              },
+              "type": "number",
+              "unit": "ms"
+            },
+            "whisperConnectID": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The WhisperConnect ID used in communication"
+              },
+              "maximum": 31,
+              "minimum": 16,
+              "name": {
+                "de": "",
+                "en": "WhisperConnect ID"
+              },
+              "type": "number"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "controls": {
+        "setOperationalState": {
+          "description": {
+            "de": "",
+            "en": "Turns the inverter on or off"
+          },
+          "monitoringField": "operationalState",
+          "monitoringValue": "Inverting",
+          "nameOff": {
+            "de": "",
+            "en": "Turn inverter off"
+          },
+          "nameOn": {
+            "de": "",
+            "en": "Turn inverter on"
+          },
+          "type": "boolean"
+        }
+      },
+      "device": {
+        "class": "inverter",
+        "hardwareVersion": "2.53",
+        "modelCode": "AC07",
+        "modelInfo": {
+          "alternativeNames": [
+            "AC PowerCube 24 V / 7000 VA"
+          ],
+          "categories": [
+            "Inverter"
+          ],
+          "description": {
+            "de": "Der AC PowerCube ist ein professioneller Wechselrichter, der für die dauerhafte Nutzung auch unter extremen Bedingungen entwickelt wurde. Wir bieten drei Modelle zur Auswahl: Die 3,5kVA-Ausführung, Die 7kVA-Ausfürhrung besteht aus zwei Leistungsmodulen von jeweils 3,5kVA die parallel geschaltet sind und Der AC PowerCube mit 14kVA besteht aus vier 3.5kVA redundant geschalteten Modulen. ",
+            "en": "The AC PowerCube is a professional inverter suitable for continuous operation even under extreme conditions."
+          },
+          "manufacturerName": "WhisperPower",
+          "name": "AC PowerCube 7kW",
+          "skus": [
+            "60203010"
+          ]
+        },
+        "serialNumber": "0x9EF782F",
+        "softwareVersions": {
+          "localInterfaceModule": "5.0",
+          "masterControl": "7.23"
+        },
+        "supportedCommunicationProtocols": [
+          "WhisperConnect"
+        ]
+      },
+      "deviceId": "cc016505-c8a1-4fdc-8ed1-ecefb9cfb324",
+      "monitoring": {
+        "acOutput": {
+          "properties": {
+            "current": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Amount of AC current on the output of the inverter"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "maximum": 6553.5,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "AC output current"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "frequency": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The frequency of the inverter output"
+              },
+              "maximum": 65355,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "AC output frequency"
+              },
+              "type": "number",
+              "unit": "Hz"
+            },
+            "power": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The power of the inverter output"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "maximum": 65355,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "AC output power"
+              },
+              "type": "number",
+              "unit": "VA"
+            },
+            "voltage": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Amount of AC volts on the output of the inverter"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "maximum": 65535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "AC output voltage"
+              },
+              "type": "number",
+              "unit": "VAC"
+            }
+          },
+          "type": "object"
+        },
+        "alarms": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the alarms active on the device"
+          },
+          "displayPriority": 3,
+          "items": {
+            "enum": [
+              "common failure",
+              "overload",
+              "low voltage",
+              "high voltage",
+              "high temperature",
+              "dc stage 1 error",
+              "dc stage 2 error",
+              "dc stage 3 error",
+              "dc stage 4 error"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "de": "",
+            "en": "Device alarms"
+          },
+          "type": "array"
+        },
+        "dc": {
+          "properties": {
+            "loadBank1": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The load of the DC on bank 1"
+              },
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Bank 1 DC load"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "loadBank2": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The load of the DC on bank 2"
+              },
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Bank 2 DC load"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "voltageBank1": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of volts for DC on bank 1"
+              },
+              "maximum": 6553.5,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Bank 1 DC voltage"
+              },
+              "type": "number",
+              "unit": "VDC"
+            },
+            "voltageBank2": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of volts for DC on bank 2"
+              },
+              "maximum": 6553.5,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Bank 2 DC voltage"
+              },
+              "type": "number",
+              "unit": "VDC"
+            }
+          },
+          "type": "object"
+        },
+        "dcSummary": {
+          "properties": {
+            "current": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Amount of amps going to the battery"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 2,
+              "maximum": 65355,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Battery current"
+              },
+              "type": "number",
+              "unit": "A"
+            },
+            "load": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "The load of the charger DC output"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "maximum": 100,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "DC output load"
+              },
+              "type": "number",
+              "unit": "%"
+            },
+            "voltage": {
+              "decimals": 2,
+              "description": {
+                "de": "",
+                "en": "Amount of volts for DC Battery"
+              },
+              "displayAnalytics": {
+                "operations": [
+                  "avg"
+                ]
+              },
+              "displayPriority": 2,
+              "maximum": 65.535,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "DC Voltage"
+              },
+              "type": "number",
+              "unit": "VDC"
+            }
+          },
+          "type": "object"
+        },
+        "digitalIO": {
+          "properties": {
+            "digitalInput1": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of digital input 1"
+              },
+              "items": {
+                "enum": [
+                  "inactive",
+                  "active"
+                ],
+                "type": "string"
+              },
+              "name": {
+                "de": "",
+                "en": "Digital input 1 state"
+              },
+              "type": "array"
+            },
+            "digitalInput2": {
+              "description": {
+                "de": "",
+                "en": "Reflects the state of digital input 2"
+              },
+              "items": {
+                "enum": [
+                  "inactive",
+                  "active"
+                ],
+                "type": "string"
+              },
+              "name": {
+                "de": "",
+                "en": "Digital input 2 state"
+              },
+              "type": "array"
+            }
+          },
+          "type": "object"
+        },
+        "dipswitches": {
+          "description": {
+            "de": "",
+            "en": "A list of set dipswitches on the device"
+          },
+          "items": {
+            "enum": [
+              "dipswitch 1",
+              "dipswitch 2",
+              "dipswitch 3",
+              "dipswitch 4",
+              "dipswitch 5",
+              "dipswitch 6",
+              "dipswitch 7",
+              "dipswitch 8"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "de": "",
+            "en": "Dipswitches"
+          },
+          "type": "array"
+        },
+        "extendedState": {
+          "properties": {
+            "acStage1Enabled": {
+              "description": {
+                "de": "",
+                "en": "Indicates if AC stage 1 is enabled"
+              },
+              "name": {
+                "de": "",
+                "en": "AC stage 1 enabled"
+              },
+              "type": "boolean"
+            },
+            "acStage2Enabled": {
+              "description": {
+                "de": "",
+                "en": "Indicates if AC stage 2 is enabled"
+              },
+              "name": {
+                "de": "",
+                "en": "AC stage 2 enabled"
+              },
+              "type": "boolean"
+            },
+            "dcStage1Enabled": {
+              "description": {
+                "de": "",
+                "en": "Indicates if DC stage 1 is enabled"
+              },
+              "name": {
+                "de": "",
+                "en": "DC stage 1 enabled"
+              },
+              "type": "boolean"
+            },
+            "dcStage2Enabled": {
+              "description": {
+                "de": "",
+                "en": "Indicates if DC stage 2 is enabled"
+              },
+              "name": {
+                "de": "",
+                "en": "DC stage 2 enabled"
+              },
+              "type": "boolean"
+            }
+          },
+          "type": "object"
+        },
+        "functionalState": {
+          "properties": {
+            "acOutputPresent": {
+              "description": {
+                "de": "",
+                "en": "Indicates if acceptable AC output is present"
+              },
+              "name": {
+                "de": "",
+                "en": "AC output present"
+              },
+              "type": "boolean"
+            }
+          },
+          "type": "object"
+        },
+        "inverter": {
+          "properties": {
+            "internalDCBusVoltage": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Amount of volts on the internal DC bus"
+              },
+              "maximum": 255,
+              "minimum": 0,
+              "name": {
+                "de": "",
+                "en": "Internal DC bus voltage"
+              },
+              "type": "number",
+              "unit": "VDC"
+            }
+          },
+          "type": "object"
+        },
+        "operationalState": {
+          "description": {
+            "de": "",
+            "en": "These states reflect the operational status of the device"
+          },
+          "displayPriority": 3,
+          "items": {
+            "enum": [
+              "offline",
+              "off",
+              "operational"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "de": "",
+            "en": "General Device States"
+          },
+          "type": "array"
+        },
+        "temperature": {
+          "properties": {
+            "bank1": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Internal bank 1 temperature reflected in celcius (-127 C to 128 C)"
+              },
+              "displayAnalytics": {
+                "group": "Temperature",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "maximum": 127,
+              "minimum": -128,
+              "name": {
+                "de": "",
+                "en": "Bank 1 Temperature Sensor"
+              },
+              "type": "number",
+              "unit": "celcius"
+            },
+            "bank2": {
+              "decimals": 0,
+              "description": {
+                "de": "",
+                "en": "Internal bank 2 temperature reflected in celcius (-127 C to 128 C)"
+              },
+              "displayAnalytics": {
+                "group": "Temperature",
+                "operations": [
+                  "avg"
+                ]
+              },
+              "maximum": 127,
+              "minimum": -128,
+              "name": {
+                "de": "",
+                "en": "Bank 2 Temperature Sensor"
+              },
+              "type": "number",
+              "unit": "celcius"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "name": "AC PowerCube 1",
+      "serialNumber": "Unknown"
+    }
+  ],
+  "whisperSchema": "v1/apis/edge"
+}

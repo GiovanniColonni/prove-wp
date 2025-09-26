@@ -1,0 +1,558 @@
+{
+  "data": [
+    {
+      "event": {
+        "alarms": [],
+        "device": {
+          "deviceID": null,
+          "productionDay": null,
+          "productionMonth": null,
+          "productionNumber": null,
+          "productionYear": null,
+          "revisionCode": null,
+          "revisionWeek": null,
+          "revisionYear": null
+        },
+        "engine": {
+          "ExhaustBypassTimeMinutes": null,
+          "ExhaustBypassTimeSeconds": null,
+          "failureBypassTime": null,
+          "glowTime": null,
+          "maxStartAttempts": null,
+          "maxStartTime": null,
+          "pullTime": null,
+          "pumpTime": null,
+          "rpm": null,
+          "runTimeHistoricHours": null,
+          "runTimeHistoricMinutes": null,
+          "runTimeMaintenanceHours": null,
+          "runTimeMaintenanceMinutes": null,
+          "starterBatteryVoltage": null,
+          "startsFailed": null,
+          "startsSuccesfull": null,
+          "stopTime": null,
+          "temperature": null,
+          "udcMultiplier": null
+        },
+        "extendedState": {
+          "engineStartedBy": null
+        },
+        "functionalState": {
+          "ecuState": null,
+          "engineStartedBy": null,
+          "generatorType": null
+        },
+        "historic": {
+          "previousMaintenanceHours": null,
+          "previousMaintenanceMinutes": null,
+          "totalRunTimeHours": null,
+          "totalRunTimeMinutes": null
+        },
+        "operationalState": "No Communication",
+        "temperature": {
+          "engine": null
+        }
+      },
+      "source": {
+        "deviceClass": "generator",
+        "deviceId": "0d028705-c3cc-4dd6-8cfb-f0f648cb610f",
+        "deviceModelName": "DDC-GV",
+        "deviceSerialNumber": "Unknown",
+        "measuredAt": "2025-06-20 14:18:27.431269+00:00"
+      }
+    },
+    {
+      "event": {
+        "acOutput": {
+          "current": null,
+          "frequency": null,
+          "power": null,
+          "voltage": null
+        },
+        "alarms": [],
+        "dc": {
+          "loadBank1": null,
+          "loadBank2": null,
+          "voltageBank1": null,
+          "voltageBank2": null
+        },
+        "dcSummary": {
+          "current": null,
+          "load": 0,
+          "voltage": null,
+          "voltageAvg": 0
+        },
+        "dipswitches": [],
+        "extendedState": {
+          "acStage1Enabled": null,
+          "acStage2Enabled": null,
+          "dcStage1Enabled": null,
+          "dcStage2Enabled": null
+        },
+        "functionalState": {
+          "acOutputPresent": null
+        },
+        "inverter": {
+          "internalDCBusVoltage": null
+        },
+        "operationalState": "No Communication",
+        "temperature": {
+          "bank1": null,
+          "bank2": null
+        },
+        "whisperConnect": {
+          "transmitPeriod": null
+        }
+      },
+      "source": {
+        "deviceClass": "inverter",
+        "deviceId": "cc016505-c8a1-4fdc-8ed1-ecefb9cfb324",
+        "deviceModelName": "AC07",
+        "deviceSerialNumber": "Unknown",
+        "measuredAt": "2025-07-31 11:21:14.028953+00:00"
+      }
+    },
+    {
+      "event": {
+        "acInput": {
+          "current": 0.0,
+          "currentLimit": 10,
+          "load": 0,
+          "power": 0.0,
+          "voltage": 0.0
+        },
+        "alarms": [],
+        "dcConnections": {
+          "current": null,
+          "load": null,
+          "voltage": null
+        },
+        "dcSlave": {
+          "current1": 0.0,
+          "current2": 0.0,
+          "load1": 0,
+          "load2": 0,
+          "voltage1": 24.43,
+          "voltage2": 2.5
+        },
+        "dcSummary": {
+          "current": 0.0,
+          "currentLimit": 103.0,
+          "currentLimitPercentage": 100,
+          "load": 0,
+          "voltage": 23.37
+        },
+        "digitalIO": {
+          "digitalInput1": [
+            "inactive"
+          ],
+          "digitalInput2": [
+            "inactive"
+          ],
+          "digitalOutput1": [
+            "inactive"
+          ],
+          "digitalOutput2": [
+            "inactive"
+          ],
+          "dipswitches": [
+            "dipswitch 6"
+          ]
+        },
+        "extendedState": {
+          "batteryType": "High float",
+          "diodeCompensation": "Disabled",
+          "temperatureCompensation": "Disabled",
+          "tempratureCompensation": null
+        },
+        "functionalState": {
+          "acInputPresent": "Disconnected",
+          "chargerState": [
+            "off"
+          ]
+        },
+        "operationalState": "operational",
+        "setDCOutputCurrentLimit": 100,
+        "temperature": {
+          "ambient": 0,
+          "battery": -55,
+          "heatsink": 32,
+          "transformer": 0
+        }
+      },
+      "source": {
+        "deviceClass": "battery-charger",
+        "deviceId": "4571b9c4-c586-4e75-9a3c-4d28682ac485",
+        "deviceModelName": "WPBC24V100A",
+        "deviceSerialNumber": "Unknown",
+        "measuredAt": "2025-09-25 11:43:25.539228+00:00"
+      }
+    },
+    {
+      "event": {
+        "acInput": {
+          "current": 0.0,
+          "currentLimit": 10,
+          "load": 0,
+          "power": 0.0,
+          "voltage": 0.0
+        },
+        "alarms": [],
+        "dcConnections": {
+          "current": null,
+          "load": null,
+          "voltage": null
+        },
+        "dcSlave": {
+          "current1": 0.0,
+          "current2": 0.0,
+          "load1": 0,
+          "load2": 0,
+          "voltage1": 24.47,
+          "voltage2": 2.09
+        },
+        "dcSummary": {
+          "current": 0.0,
+          "currentLimit": 103.0,
+          "currentLimitPercentage": 100,
+          "load": 0,
+          "voltage": 23.31
+        },
+        "digitalIO": {
+          "digitalInput1": [
+            "inactive"
+          ],
+          "digitalInput2": [
+            "inactive"
+          ],
+          "digitalOutput1": [
+            "inactive"
+          ],
+          "digitalOutput2": [
+            "inactive"
+          ],
+          "dipswitches": [
+            "dipswitch 6"
+          ]
+        },
+        "extendedState": {
+          "batteryType": "High float",
+          "diodeCompensation": "Disabled",
+          "temperatureCompensation": "Disabled",
+          "tempratureCompensation": null
+        },
+        "functionalState": {
+          "acInputPresent": "Disconnected",
+          "chargerState": [
+            "off"
+          ]
+        },
+        "operationalState": "operational",
+        "setDCOutputCurrentLimit": 100,
+        "temperature": {
+          "ambient": 0,
+          "battery": -55,
+          "heatsink": 27,
+          "transformer": 0
+        }
+      },
+      "source": {
+        "deviceClass": "battery-charger",
+        "deviceId": "40cb5f6d-929e-41db-a0ec-43dbf3458312",
+        "deviceModelName": "WPBC24V100A",
+        "deviceSerialNumber": "Unknown",
+        "measuredAt": "2025-09-25 11:43:25.836272+00:00"
+      }
+    },
+    {
+      "event": {
+        "acOutput": {
+          "current": 0.0,
+          "load": 0.0,
+          "power": 0.0,
+          "voltage": 0.0
+        },
+        "alarms": [
+          "Can Communication Error"
+        ],
+        "engine": {
+          "rpm": 0,
+          "stepperCount": 0
+        },
+        "extendedState": {
+          "hardwareVersionMajor": 0,
+          "hardwareVersionMinor": 0,
+          "model": 0,
+          "serialNumber": 0,
+          "softwareVersionMajor": 0,
+          "softwareVersionMinor": 0
+        },
+        "functionalState": {
+          "calibration": "Off",
+          "chargeBattery": "Off",
+          "chargeBatteryState": "Off",
+          "coolingMode": "Off",
+          "ecuState": "Standby",
+          "generation": "Not Inverting",
+          "stepper": "Off"
+        },
+        "historical": {
+          "totalMaintenanceHours": 0,
+          "totalMaintenanceMinutes": 0,
+          "totalWorkHours": 0,
+          "totalWorkMinutes": 0
+        },
+        "inverter": {
+          "PWMScaleCount": 0,
+          "deltaDCBusCount": 0
+        },
+        "operationalState": "Not Inverting",
+        "temperature": {
+          "inverter": 0.0,
+          "oil": 10.0
+        },
+        "warnings": []
+      },
+      "source": {
+        "deviceClass": "power-converter",
+        "deviceId": "7d5a2072-1348-4659-967e-d5c042f1cbce",
+        "deviceModelName": "PMG-FRAME-I",
+        "deviceSerialNumber": "Unknown",
+        "measuredAt": "2025-09-25 11:43:25.994887+00:00"
+      }
+    },
+    {
+      "event": {
+        "alarms": [],
+        "alarmsPrevious": [],
+        "battery": {
+          "busVoltage": null,
+          "capacityRemaining": null,
+          "coefficientCapacityStateOfCharge": null,
+          "current": 0.0,
+          "cutOffCapacityRemaining": 0,
+          "stateOfCharge": 0,
+          "timeRemaining": 0,
+          "voltage": null
+        },
+        "extendedState": {
+          "capacityTotal": null,
+          "hardwareVersion": null,
+          "softwareVersionMajor": null,
+          "softwareVersionMinor": null,
+          "softwareVersionPatch": null
+        },
+        "functionalState": {
+          "batteryChargingState": [],
+          "canBusVoltage": null,
+          "mainRelay": null,
+          "mainRelayHigh": null,
+          "mainRelayLow": null,
+          "prechargeRelay": null
+        },
+        "operationalState": "No Communication",
+        "temperature": {
+          "battery": null
+        }
+      },
+      "source": {
+        "deviceClass": "battery-monitor",
+        "deviceId": "6b7cddcc-ea39-4eb7-a65f-3e6930f581dd",
+        "deviceModelName": "WIB",
+        "deviceSerialNumber": "Unknown",
+        "measuredAt": "2025-08-25 16:26:42.230552+00:00"
+      }
+    },
+    {
+      "event": {
+        "alarms": [],
+        "dc": {
+          "current": 0.0,
+          "voltage": 23.390625
+        },
+        "digitalIO": {
+          "relay1": "Opened",
+          "relay2": "Opened",
+          "relay3": "Opened",
+          "relay4": "Opened"
+        },
+        "extendedState": {
+          "model": "Suntrack Pro 65",
+          "systemVoltage": 24.0
+        },
+        "functionalState": {
+          "chargeState": "Bulk",
+          "remoteEntryState": "Disabled",
+          "solarInputPresent": "Present",
+          "state": "On"
+        },
+        "operationalState": "StartUp",
+        "solarInput": {
+          "current": 0.0,
+          "dailyProduction": 2.105712890625,
+          "irradiationHoursLastDay": 2.732421875,
+          "irradiationHoursThisDay": 1.0166015625,
+          "maxSolarPowerThisDay": 0.6895065307617188,
+          "maxSolarVoltageThisDay": 58.15625,
+          "power": 0.0,
+          "totalProducedEnergy": 39.81590270996094,
+          "voltage": 63.75
+        }
+      },
+      "source": {
+        "deviceClass": "solar-charger",
+        "deviceId": "2b980e8f-647e-4acb-86e0-df4251d4ee95",
+        "deviceModelName": "WP-Suntrack65",
+        "deviceSerialNumber": "Unknown",
+        "measuredAt": "2025-09-25 11:43:25.210175+00:00"
+      }
+    },
+    {
+      "event": {
+        "acInput": {
+          "acInput": {
+            "ac-grid-1": {
+              "current": 0.0,
+              "currentLimit": 20,
+              "shorePresent": false,
+              "voltage": 0.0
+            }
+          },
+          "acOutput": {
+            "ac-consumer-1": {
+              "current": 0.0,
+              "generatorRPM": null,
+              "generatorState": null,
+              "load": 4.5,
+              "powerOutput": 0.0,
+              "voltage": 235
+            }
+          },
+          "current": 0.0,
+          "dcOutput": {
+            "dc-distribution-1": {
+              "batteryTimeRemaining": -0.0,
+              "current": 0.0,
+              "solarPower": 470.947265625,
+              "solarPresent": true,
+              "stateOfCharge": 27,
+              "voltage": 26.39
+            }
+          },
+          "shorePresent": false,
+          "voltage": 0.0
+        },
+        "acOutput": {
+          "acInput": {
+            "ac-grid-1": {
+              "current": 0.0,
+              "currentLimit": 20,
+              "shorePresent": false,
+              "voltage": 0.0
+            }
+          },
+          "acOutput": {
+            "ac-consumer-1": {
+              "current": 0.0,
+              "generatorRPM": null,
+              "generatorState": null,
+              "load": 4.5,
+              "powerOutput": 0.0,
+              "voltage": 235
+            }
+          },
+          "dcInput": {
+            "dc-distribution-1": {
+              "current": 0.0,
+              "voltage": 26.400000000000002
+            }
+          },
+          "dcOutput": {
+            "dc-distribution-1": {
+              "batteryTimeRemaining": -0.0,
+              "current": 0.0,
+              "solarPower": 470.947265625,
+              "solarPresent": true,
+              "stateOfCharge": 27,
+              "voltage": 26.39
+            }
+          },
+          "load": 4.5,
+          "power": 0.0
+        },
+        "battery": {
+          "current": 0.0,
+          "dcOutput": {
+            "dc-distribution-1": {
+              "batteryTimeRemaining": -0.0,
+              "current": 0.0,
+              "solarPower": 470.947265625,
+              "solarPresent": true,
+              "stateOfCharge": 27,
+              "voltage": 26.39
+            }
+          },
+          "stateOfCharge": 27,
+          "timeRemaining": -0.0,
+          "voltage": 26.39
+        },
+        "generator": {
+          "acOutput": {
+            "ac-consumer-1": {
+              "current": 0.0,
+              "generatorRPM": null,
+              "generatorState": null,
+              "load": 4.5,
+              "powerOutput": 0.0,
+              "voltage": 235
+            }
+          },
+          "dcOutput": {
+            "dc-distribution-1": {
+              "batteryTimeRemaining": -0.0,
+              "current": 0.0,
+              "solarPower": 470.947265625,
+              "solarPresent": true,
+              "stateOfCharge": 27,
+              "voltage": 26.39
+            }
+          },
+          "generators": {
+            "0d028705-c3cc-4dd6-8cfb-f0f648cb610f": {
+              "load": null,
+              "power": null,
+              "rpm": null,
+              "state": null
+            }
+          },
+          "load": null,
+          "power": null,
+          "rpm": null,
+          "state": null
+        },
+        "solar": {
+          "dcOutput": {
+            "dc-distribution-1": {
+              "batteryTimeRemaining": -0.0,
+              "current": 0.0,
+              "solarPower": 470.947265625,
+              "solarPresent": true,
+              "stateOfCharge": 27,
+              "voltage": 26.39
+            }
+          },
+          "power": 470.947265625,
+          "solarPresent": true
+        }
+      },
+      "source": {
+        "deviceClass": "summary",
+        "deviceId": "summary",
+        "deviceModelName": "summary",
+        "deviceSerialNumber": "summary",
+        "measuredAt": "2024-11-28 10:45:37.432152+00:00"
+      }
+    }
+  ],
+  "whisperSchema": "v1/apis/edge"
+}
